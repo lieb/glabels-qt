@@ -1,6 +1,6 @@
-/*  Outline.h
+/*  Handles.h
  *
- *  Copyright (C) 2013-2016  Jaye Evins <evins@snaught.com>
+ *  Copyright (C) 2013  Jaye Evins <evins@snaught.com>
  *
  *  This file is part of gLabels-qt.
  *
@@ -18,14 +18,14 @@
  *  along with gLabels-qt.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-#ifndef model_Outline_h
-#define model_Outline_h
+#ifndef model_Handles_h
+#define model_Handles_h
 
+
+#include "Distance.h"
 
 #include <QPainter>
 #include <QPainterPath>
-
-#include <memory>
 
 
 namespace glabels
@@ -33,52 +33,69 @@ namespace glabels
 	namespace model
 	{
 
-		// Forward references
+		// Forward References
 		class ModelObject;
 
 
 		///
-		/// Outline Class
+		/// Handle Base Class
 		///
-		class Outline
+		class Handle
 		{
+			////////////////////////////
+			// Location enumeration
+			////////////////////////////
+		public:
+			enum Location { NULL_HANDLE, NW, N, NE, E, SE, S, SW, W, P1, P2 };
+		
+		
 			////////////////////////////
 			// Lifecycle Methods
 			////////////////////////////
 		public:
-			Outline() = default;
-			~Outline() = default;
+			Handle() = default;
+			Handle( ModelObject* owner, Location location );
+			~Handle() = default;
 
-
+		
 			////////////////////////////
-			// Ownership
+			// Attribute Methods
 			////////////////////////////
-			void setOwner( ModelObject* owner );
-			bool isEnabled() const;
-
+			bool isNull() const;
+			ModelObject* owner() const;
+			Location location() const;
+		
 
 			////////////////////////////
 			// Drawing Methods
 			////////////////////////////
 		public:
-			void draw( QPainter* painter ) const;
-			QPainterPath hoverPath( double scale ) const;
+			void draw( QPainter* painter, double scale ) const;
+			QPainterPath path( double scale ) const;
+
+		private:
+			void drawAt( QPainter* painter,
+			             double    scale,
+			             Distance  x,
+			             Distance  y,
+			             QColor    color ) const;
+		
+			QPainterPath pathAt( double   scale,
+			                     Distance x,
+			                     Distance y ) const;
 
 
 			////////////////////////////
 			// Private Data
 			////////////////////////////
-		private:
-			ModelObject*   mOwner{ nullptr };
+		protected:
+			ModelObject* mOwner{ nullptr };
+			Location     mLocation{ NULL_HANDLE };
 
-			QVector<qreal> mDashes;
-			QPen           mPen1;
-			QPen           mPen2;
-	
 		};
 
 	}
 }
 
 
-#endif // model_Outline_h
+#endif // model_Handles_h
