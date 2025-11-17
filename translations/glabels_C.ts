@@ -619,11 +619,19 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Print...</source>
+        <source>Start groups at position:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Start groups at position:</source>
+        <source>Destination</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Print</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use system print dialog...</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2111,6 +2119,22 @@
     </message>
     <message>
         <source>(Will print a total of %1 items on 1 page.)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Print to file (PDF)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>PDF files (*.pdf);;All files (*)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%1 already exists.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Do you want to overwrite it?</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
