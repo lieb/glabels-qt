@@ -754,6 +754,42 @@
         <source>&amp;Cancel</source>
         <translation>&amp;Скасувати</translation>
     </message>
+    <message>
+        <source>Product information</source>
+        <translation>Дані щодо продукту</translation>
+    </message>
+    <message>
+        <source>Vendor:</source>
+        <translation>Виробник:</translation>
+    </message>
+    <message>
+        <source>TextLabel</source>
+        <translation>Текстова мітка</translation>
+    </message>
+    <message>
+        <source>Part #:</source>
+        <translation>№ частини:</translation>
+    </message>
+    <message>
+        <source>Description:</source>
+        <translation>Опис:</translation>
+    </message>
+    <message>
+        <source>Page size:</source>
+        <translation>Розмір сторінки:</translation>
+    </message>
+    <message>
+        <source>Label size:</source>
+        <translation>Розмір етикетки:</translation>
+    </message>
+    <message>
+        <source>Layout:</source>
+        <translation>Компонування:</translation>
+    </message>
+    <message>
+        <source>Select</source>
+        <translation>Вибрати</translation>
+    </message>
 </context>
 <context>
     <name>StartupView</name>
@@ -1848,6 +1884,14 @@ Foundation тексту цієї ліцензії версії 3 або (якщ�
         <source>Redo %1</source>
         <translation>Повторити %1</translation>
     </message>
+    <message>
+        <source>Center Both</source>
+        <translation>Центрувати обидва</translation>
+    </message>
+    <message>
+        <source>Center objects in label</source>
+        <translation>Центрувати об&apos;єкти на етикетці</translation>
+    </message>
 </context>
 <context>
     <name>glabels::MergeView</name>
@@ -2082,6 +2126,17 @@ Foundation тексту цієї ліцензії версії 3 або (якщ�
     <message>
         <source>Before submitting a report, look through the existing issues for similar or related bugs.  If the issue has already been reported, please consider contributing to its report instead.  Otherwise, create a new issue report. Please paste the following information into the issue description.</source>
         <translation>Перш ніж надсилати звіт, пошукайте наявні звіти щодо подібної або пов&apos;язаної проблеми. Якщо звіт про ваду вже кимось складено, будь ласка, ознайомтеся із ним і спробуйте його удосконалити. Якщо звітів про подібні вади ще не складено, створіть новий звіт. Будь ласка, вкажіть у описів вади зазначені нижче дані.</translation>
+    </message>
+</context>
+<context>
+    <name>glabels::SelectProductDialog</name>
+    <message>
+        <source>List View</source>
+        <translation>Перегляд списком</translation>
+    </message>
+    <message>
+        <source>Grid View</source>
+        <translation>Перегляд таблицею</translation>
     </message>
 </context>
 <context>
