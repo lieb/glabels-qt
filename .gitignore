@@ -15,6 +15,9 @@
 *.la
 *.a
 
+# Compiled translation files
+*.qm
+
 # Sphinx-build artifacts
 /user-docs/_build/doctrees
 
