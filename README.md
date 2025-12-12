@@ -1,3 +1,6 @@
+>[!IMPORTANT]
+>This repo is for *glabels-qt*, NOT the legacy *glabels-3* version (which I have not maintained since 2018).
+
 ![gLabels Label Designer](glabels/images/glabels-label-designer.png)
 
 ![Cover Image](docs/images/cover-image.png)
