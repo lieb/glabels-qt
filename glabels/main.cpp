@@ -46,6 +46,7 @@ int main( int argc, char **argv )
 	QCoreApplication::setOrganizationDomain( glabels::model::Version::ORGANIZATION_DOMAIN );
 	QCoreApplication::setApplicationName( glabels::model::Version::APPLICATION_NAME );
 	QCoreApplication::setApplicationVersion( glabels::model::Version::LONG_STRING );
+	QApplication::setDesktopFileName( glabels::model::Version::DESKTOP_FILE_NAME );
 
 	QIcon::setThemeName( "glabels-flat" );
 

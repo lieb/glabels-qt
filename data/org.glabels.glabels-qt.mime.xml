@@ -3,7 +3,7 @@
    <mime-type type="application/x-glabels">
      <comment>gLabels Project File</comment>
      <sub-class-of type="application/xml"/>
-     <generic-icon name="x-glabels-project"/>
+     <icon name="x-glabels-project"/>
      <glob pattern="*.glabels"/>
    </mime-type>
 </mime-info>

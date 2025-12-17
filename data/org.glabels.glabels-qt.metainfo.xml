@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>org.glabels.glabels-qt</id>
+  <developer id="io.github.j-evins">
+    <name>Jaye Evins</name>
+  </developer>
+  <launchable type="desktop-id">org.glabels.glabels-qt.desktop</launchable>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0+</project_license>
+  <name>gLabels</name>
+  <summary>Create labels and business cards</summary>
+  <summary xml:lang="de">Entwurf von Etiketten und Visitenkarten</summary>
+  <summary xml:lang="es">Crear etiquetas y tarjetas de visita</summary>
+  <summary xml:lang="fr">Créer des étiquettes et des cartes de visite</summary>
+  <summary xml:lang="it">Crea etichette e biglietti da visita</summary>
+  <summary xml:lang="pl">Twórz etykiety i wizytówki</summary>
+  <summary xml:lang="pt">Crie etiquetas e cartões de visita</summary>
+  <summary xml:lang="pt_BR">Crie etiquetas e cartões de visita</summary>
+  <summary xml:lang="uk">Створюйте етикетки та візитки</summary>
+  <description>
+    <p>gLabels is a program for creating labels, business cards and media covers.
+    It is designed to work with various laser/ink-jet peel-off label and business
+    card sheets that you'll find at most office supply stores.</p>
+    <p>gLabels can be used to design address labels, name tags, price tags,
+    cd/dvd labels, or just about anything else that is organized in a regular
+    pattern on a sheet of paper. Labels (or cards) can contain text, images,
+    lines, shapes, and barcodes. gLabels also includes a document-merge feature
+    which lets you print a unique label for each record from an external data
+    source, such as a CSV file.</p>
+  </description>
+  <categories>
+    <category>Office</category>
+  </categories>
+  <keywords>
+    <keyword>label</keyword>
+    <keyword>card</keyword>
+    <keyword>print</keyword>
+    <keyword>office</keyword>
+    <keyword>barcode</keyword>
+    <keyword translate="no">qt</keyword>
+  </keywords>
+  <url type="homepage">https://glabels.org/</url>
+  <url type="bugtracker">https://github.com/j-evins/glabels-qt/issues</url>
+  <url type="vcs-browser">https://github.com/j-evins/glabels-qt</url>
+  <update_contact>evins_at_snaught.com</update_contact>
+  <content_rating type="oars-1.1" />
+  <branding>
+    <color type="primary" scheme_preference="light">#bbdb69</color>
+    <color type="primary" scheme_preference="dark">#4e9a06</color>
+  </branding>
+  <translation type="qt">glabels-qt/translations/glabels</translation>
+  <!--
+  <screenshots>
+    <screenshot type="default">
+      <image>https://glabels.org/screenshots/400-screenshot-main.png</image>
+      <caption>...</caption>
+    </screenshot>
+  </screenshots>
+  <releases>
+    <release version="4.0.0" date="2025-12-01">
+      <url type="details">https://example.org/changelog.html#version_4.0.0</url>
+      <description>
+        <p>Release description</p>
+          <ul>
+            <li>List of changes</li>
+            <li>List of changes</li>
+          </ul>
+      </description>
+    </release>
+  </releases>
+  -->
+</component>

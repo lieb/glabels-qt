@@ -35,8 +35,9 @@ namespace glabels
 			const QString ORGANIZATION_NAME   = "@ORGANIZATION_NAME@";
 			const QString ORGANIZATION_DOMAIN = "@ORGANIZATION_DOMAIN@";
 			const QString APPLICATION_NAME    = "@APPLICATION_NAME@";
+			const QString DESKTOP_FILE_NAME    = "@DESKTOP_FILE_NAME@";
 
-			const QString WEBSITE = "http://@WEBSITE@";
+			const QString WEBSITE = "https://@WEBSITE@";
 			const QString BUG_WEBSITE = "@BUG_WEBSITE@";
 
 			const int     MAJOR   = @glabels-qt_VERSION_MAJOR@;
