@@ -25,7 +25,11 @@ OPTIONS
 
 .. option::  -v, --version
 
-             Displays version information and exits.
+             Displays brief version information and exits.
+
+.. option::  -V, --Version
+
+             Displays detailed version information and exits.
 
 .. option:: -p <printer>, --printer <printer>
 
