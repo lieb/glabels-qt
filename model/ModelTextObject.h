@@ -216,7 +216,7 @@ namespace glabels
 			
 			double autoShrinkFontSize( const merge::Record& record,
 			                           const Variables&     variables ) const;
-	
+
 
 			///////////////////////////////////////////////////////////////
 			// Private Members

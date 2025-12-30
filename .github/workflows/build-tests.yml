@@ -23,23 +23,18 @@ jobs:
       matrix:
         include:
           - os: ubuntu-latest
-            build_type: Release
             c_compiler: gcc
             cpp_compiler: g++
           - os: ubuntu-latest
-            build_type: Release
             c_compiler: clang
             cpp_compiler: clang++
           - os: ubuntu-22.04
-            build_type: Release
             c_compiler: gcc
             cpp_compiler: g++
           - os: windows-latest
-            build_type: Release
             c_compiler: cl
             cpp_compiler: cl
           - os: macos-latest
-            build_type: Release
             c_compiler: clang
             cpp_compiler: clang++
 
@@ -105,7 +100,7 @@ jobs:
       with:
         version: '6.2.*'
         install-deps: 'true'
-        archives: 'qtbase qtsvg qttools icu qttranslations'
+        archives: 'qtbase qtsvg qttools icu qttranslations qtwayland'
 
     - name: Set reusable strings
       id: strings
@@ -118,32 +113,162 @@ jobs:
         cmake -B ${{ steps.strings.outputs.build-output-dir }}
         -DCMAKE_CXX_COMPILER=${{ matrix.cpp_compiler }}
         -DCMAKE_C_COMPILER=${{ matrix.c_compiler }}
-        -DCMAKE_BUILD_TYPE=${{ matrix.build_type }}
+        -DCMAKE_BUILD_TYPE=Release
         -DCMAKE_TOOLCHAIN_FILE=${{ env.TOOLCHAIN_FILE }}
         -S ${{ github.workspace }}
 
     - name: Build
-      run: cmake --build ${{ steps.strings.outputs.build-output-dir }} --config ${{ matrix.build_type }}
+      run: cmake --build ${{ steps.strings.outputs.build-output-dir }} --config Release
 
     - name: Test (Ubuntu)
       if: startsWith( matrix.os, 'ubuntu-' )
       working-directory: ${{ steps.strings.outputs.build-output-dir }}
       run: |
-        xvfb-run ./glabels/glabels-qt --Version
-        xvfb-run ctest --build-config ${{ matrix.build_type }}
+        xvfb-run -a ./glabels/glabels-qt --Version
+        xvfb-run -a ctest --build-config Release
 
     - name: Test (Windows)
       if: startsWith( matrix.os, 'windows-' )
       working-directory: ${{ steps.strings.outputs.build-output-dir }}
+      env:
+        QT_ASSUME_STDERR_HAS_CONSOLE: 1
       run: |
-        ctest --build-config ${{ matrix.build_type }}
+        ./glabels-batch/Release/glabels-batch-qt --Version
+        ctest --build-config Release
 
     - name: Test (MacOS)
       if: startsWith( matrix.os, 'macos-' )
       working-directory: ${{ steps.strings.outputs.build-output-dir }}
       run: |
         ./glabels/glabels-qt --Version
-        ctest --build-config ${{ matrix.build_type }}
+        ctest --build-config Release
+
+    - name: Install render test dependencies (Ubuntu-latest)
+      if: startsWith( matrix.os, 'ubuntu-latest' )
+      working-directory: ${{ steps.strings.outputs.build-output-dir }}
+      run: |
+        sudo apt-get -y install xwayland-run
+        sudo apt-get -y install comparepdf
+
+    - name: Install render test dependencies (Windows)
+      if: startsWith( matrix.os, 'windows' )
+      working-directory: ${{ steps.strings.outputs.build-output-dir }}
+      run: |
+        choco install diff-pdf
+
+    - name: Install render test dependencies (MacOS)
+      if: startsWith( matrix.os, 'macos' )
+      working-directory: ${{ steps.strings.outputs.build-output-dir }}
+      run: |
+        brew install diff-pdf
+
+    - name: Render tests (Ubuntu-latest)
+      if: startsWith( matrix.os, 'ubuntu-latest' )
+      working-directory: ${{ steps.strings.outputs.build-output-dir }}
+      shell: bash
+      env:
+        TEST_DIR: ${{ github.workspace }}/test-data
+      run: |
+        set +e
+        run-x() { xvfb-run -a "$@"; }
+        run-w() { wlheadless-run -c weston --log=/dev/null -- "$@"; }
+        #
+        #
+        echo "================"
+        echo "X11 render tests"
+        echo "================"
+        run-x ./glabels-batch/glabels-batch-qt --Version
+        #
+        # echo "-- Available fonts (X) -------------------------------------------------"
+        # run-x fc-list : family
+        # echo "------------------------------------------------------------------------"
+        #
+        echo "-----------------------------------"
+        run-x ./glabels-batch/glabels-batch-qt -o simple-shapes-x.pdf "$TEST_DIR/simple-shapes.glabels"
+        comparepdf -ca -v2 "$TEST_DIR/simple-shapes.pdf" simple-shapes-x.pdf
+        echo "-----------------------------------"
+        run-x ./glabels-batch/glabels-batch-qt -o simple-code39-x.pdf "$TEST_DIR/simple-code39.glabels"
+        comparepdf -ca -v2 "$TEST_DIR/simple-code39.pdf" simple-code39-x.pdf
+        echo "-----------------------------------"
+        run-x ./glabels-batch/glabels-batch-qt -o simple-text-liberation-sans-x.pdf "$TEST_DIR/simple-text-liberation-sans.glabels"
+        comparepdf -ca -v2 "$TEST_DIR/simple-text-liberation-sans.pdf" simple-text-liberation-sans-x.pdf
+        echo "-----------------------------------"
+        run-x ./glabels-batch/glabels-batch-qt -o simple-text-liberation-serif-x.pdf "$TEST_DIR/simple-text-liberation-serif.glabels"
+        comparepdf -ca -v2 "$TEST_DIR/simple-text-liberation-serif.pdf" simple-text-liberation-serif-x.pdf
+        echo "-----------------------------------"
+        #
+        #
+        echo "===================="
+        echo "Wayland render tests"
+        echo "===================="
+        run-w ./glabels-batch/glabels-batch-qt --Version
+        #
+        # echo "-- Available fonts (X) -------------------------------------------------"
+        # run-w fc-list : family
+        # echo "------------------------------------------------------------------------"
+        #
+        echo "-----------------------------------"
+        run-w ./glabels-batch/glabels-batch-qt -o simple-shapes-w.pdf "$TEST_DIR/simple-shapes.glabels"
+        comparepdf -ca -v2 "$TEST_DIR/simple-shapes.pdf" simple-shapes-w.pdf
+        echo "-----------------------------------"
+        run-w ./glabels-batch/glabels-batch-qt -o simple-code39-w.pdf "$TEST_DIR/simple-code39.glabels"
+        comparepdf -ca -v2 "$TEST_DIR/simple-code39.pdf" simple-code39-w.pdf
+        echo "-----------------------------------"
+        run-w ./glabels-batch/glabels-batch-qt -o simple-text-liberation-sans-w.pdf "$TEST_DIR/simple-text-liberation-sans.glabels"
+        comparepdf -ca -v2 "$TEST_DIR/simple-text-liberation-sans.pdf" simple-text-liberation-sans-w.pdf
+        echo "-----------------------------------"
+        run-w ./glabels-batch/glabels-batch-qt -o simple-text-liberation-serif-w.pdf "$TEST_DIR/simple-text-liberation-serif.glabels"
+        comparepdf -ca -v2 "$TEST_DIR/simple-text-liberation-serif.pdf" simple-text-liberation-serif-w.pdf
+        echo "-----------------------------------"
+
+    - name: Render tests (Windows)
+      if: startsWith( matrix.os, 'windows' )
+      working-directory: ${{ steps.strings.outputs.build-output-dir }}
+      shell: pwsh
+      env:
+        TEST_DIR: ${{ github.workspace }}/test-data
+        QT_ASSUME_STDERR_HAS_CONSOLE: 1
+      run: |
+        set +e
+        ./glabels-batch/Release/glabels-batch-qt --Version
+        echo "-----------------------------------"
+        ./glabels-batch/Release/glabels-batch-qt -o simple-shapes-windows.pdf "$env:TEST_DIR/simple-shapes.glabels" 2>&1
+        diff-pdf -v "$env:TEST_DIR/simple-shapes.pdf" simple-shapes-windows.pdf 2>&1
+        echo "-----------------------------------"
+        ./glabels-batch/Release/glabels-batch-qt -o simple-code39-windows.pdf "$env:TEST_DIR/simple-code39.glabels" 2>&1
+        diff-pdf -v "$env:TEST_DIR/simple-code39.pdf" simple-code39-windows.pdf 2>&1
+        echo "-----------------------------------"
+        #
+        # TODO: Create text-based rendering tests using fonts available on Windows
+        #
+
+    - name: Render tests (MacOS)
+      if: startsWith( matrix.os, 'macos' )
+      working-directory: ${{ steps.strings.outputs.build-output-dir }}
+      shell: bash
+      env:
+        TEST_DIR: ${{ github.workspace }}/test-data
+      run: |
+        set +e
+        ./glabels-batch/glabels-batch-qt --Version
+        echo "-----------------------------------"
+        ./glabels-batch/glabels-batch-qt -o simple-shapes-mac.pdf "$TEST_DIR/simple-shapes.glabels"
+        diff-pdf -v "$TEST_DIR/simple-shapes.pdf" simple-shapes-mac.pdf
+        echo "-----------------------------------"
+        ./glabels-batch/glabels-batch-qt -o simple-code39-mac.pdf "$TEST_DIR/simple-code39.glabels"
+        diff-pdf -v "$TEST_DIR/simple-code39.pdf" simple-code39-mac.pdf
+        echo "-----------------------------------"
+        #
+        # TODO: Create text-based rendering tests using fonts available on MacOS
+        #
+
+    - name: Upload render tests for manual inspection
+      if: always()
+      uses: actions/upload-artifact@v4
+      with:
+        name: render-tests-${{ matrix.os }}-${{ matrix.cpp_compiler }}-${{ github.run_number }}
+        path: ${{ steps.strings.outputs.build-output-dir }}/*.pdf
+
 
 #    - name: Tmate
 #      uses: mxschmitt/action-tmate@v3
