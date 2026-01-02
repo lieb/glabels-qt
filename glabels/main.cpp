@@ -23,6 +23,7 @@
 #include "model/FileUtil.h"
 #include "model/Db.h"
 #include "model/Model.h"
+#include "model/Settings.h"
 #include "model/Version.h"
 #include "model/XmlLabelParser.h"
 
@@ -116,11 +117,12 @@ int main( int argc, char **argv )
 		glabels::model::Model *model = glabels::model::XmlLabelParser::readFile( filename );
 		if ( model )
 		{
-			model->setFileName( filename );
 			auto *newWindow = new glabels::MainWindow();
 			newWindow->setModel( model );
 			newWindow->show();
 			openedFiles = true;
+
+			glabels::model::Settings::addToRecentFileList( model->fileName() );
 		}
 	}
 
