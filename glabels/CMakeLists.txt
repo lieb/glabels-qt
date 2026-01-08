@@ -45,35 +45,35 @@ set (glabels_sources
 )
 
 set (glabels_qobject_headers
-  AboutDialog.h
-  BarcodeMenu.h
-  BarcodeMenuButton.h
-  BarcodeMenuItem.h
-  ColorButton.h
-  ColorHistory.h
-  ColorPaletteDialog.h
-  ColorPaletteItem.h
-  EditVariableDialog.h
-  FieldButton.h
-  File.h
-  LabelEditor.h
-  MainWindow.h
-  MergeTableModel.h
-  MergeView.h
-  ObjectEditor.h
-  PreferencesDialog.h
-  PrinterMonitor.h
-  PrintView.h
-  PropertiesView.h
-  Preview.h
-  ReportBugDialog.h
-  SelectProductDialog.h
-  SimplePreview.h
-  StartupView.h
-  TemplateDesigner.h
-  TemplatePicker.h
-  UndoRedoModel.h
-  VariablesView.h
+  AboutDialog.hpp
+  BarcodeMenu.hpp
+  BarcodeMenuButton.hpp
+  BarcodeMenuItem.hpp
+  ColorButton.hpp
+  ColorHistory.hpp
+  ColorPaletteDialog.hpp
+  ColorPaletteItem.hpp
+  EditVariableDialog.hpp
+  FieldButton.hpp
+  File.hpp
+  LabelEditor.hpp
+  MainWindow.hpp
+  MergeTableModel.hpp
+  MergeView.hpp
+  ObjectEditor.hpp
+  PreferencesDialog.hpp
+  PrinterMonitor.hpp
+  PrintView.hpp
+  PropertiesView.hpp
+  Preview.hpp
+  ReportBugDialog.hpp
+  SelectProductDialog.hpp
+  SimplePreview.hpp
+  StartupView.hpp
+  TemplateDesigner.hpp
+  TemplatePicker.hpp
+  UndoRedoModel.hpp
+  VariablesView.hpp
 )
 
 set (glabels_forms
@@ -131,7 +131,7 @@ add_executable (glabels-qt WIN32
 )
 
 target_compile_features (glabels-qt
-  PUBLIC cxx_std_11
+  PUBLIC cxx_std_20
 )
 
 target_include_directories (glabels-qt

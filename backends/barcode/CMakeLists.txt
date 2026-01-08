@@ -37,7 +37,7 @@ set (barcode_sources
 )
 
 set (barcode_qobject_headers
-  Backends.h
+  Backends.hpp
 )
 
 qt6_wrap_cpp (barcode_moc_sources ${barcode_qobject_headers})
@@ -50,10 +50,9 @@ add_library (Barcode STATIC
   ${barcode_moc_sources}
 )
 
-#target_compile_features (Barcode
-#  PUBLIC cxx_std_11
-#)
-set_property (TARGET Barcode PROPERTY CXX_STANDARD 11)
+target_compile_features (Barcode
+  PUBLIC cxx_std_20
+)
 
 target_include_directories (Barcode
   PUBLIC ..

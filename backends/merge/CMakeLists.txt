@@ -20,7 +20,7 @@ set (merge_sources
 )
 
 set (merge_qobject_headers
-  Merge.h
+  Merge.hpp
 )
 
 qt6_wrap_cpp (merge_moc_sources ${merge_qobject_headers})
@@ -33,10 +33,9 @@ add_library (Merge STATIC
   ${merge_moc_sources}
 )
 
-#target_compile_features (Merge
-#  PUBLIC cxx_std_11
-#)
-set_property (TARGET Merge PROPERTY CXX_STANDARD 11)
+target_compile_features (Merge
+  PUBLIC cxx_std_20
+)
 
 target_include_directories (Merge
   PUBLIC ..

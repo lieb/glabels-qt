@@ -1,105 +1,102 @@
-/*  XmlCategoryParser.cpp
- *
- *  Copyright (C) 2013-2016  Jaye Evins <evins@snaught.com>
- *
- *  This file is part of gLabels-qt.
- *
- *  gLabels-qt is free software: you can redistribute it and/or modify
- *  it under the terms of the GNU General Public License as published by
- *  the Free Software Foundation, either version 3 of the License, or
- *  (at your option) any later version.
- *
- *  gLabels-qt is distributed in the hope that it will be useful,
- *  but WITHOUT ANY WARRANTY; without even the implied warranty of
- *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- *  GNU General Public License for more details.
- *
- *  You should have received a copy of the GNU General Public License
- *  along with gLabels-qt.  If not, see <http://www.gnu.org/licenses/>.
- */
+//  XmlCategoryParser.cpp
+//
+//  Copyright (C) 2013-2016  Jaye Evins <evins@snaught.com>
+//
+//  This file is part of gLabels-qt.
+//
+//  gLabels-qt is free software: you can redistribute it and/or modify
+//  it under the terms of the GNU General Public License as published by
+//  the Free Software Foundation, either version 3 of the License, or
+//  (at your option) any later version.
+//
+//  gLabels-qt is distributed in the hope that it will be useful,
+//  but WITHOUT ANY WARRANTY; without even the implied warranty of
+//  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//  GNU General Public License for more details.
+//
+//  You should have received a copy of the GNU General Public License
+//  along with gLabels-qt.  If not, see <http://www.gnu.org/licenses/>.
+//
 
 
-#include "XmlCategoryParser.h"
+#include "XmlCategoryParser.hpp"
 
-#include "XmlUtil.h"
+#include "XmlUtil.hpp"
 
+#include <QDebug>
 #include <QDomDocument>
 #include <QDomNode>
 #include <QFile>
-#include <QtDebug>
 
 
-namespace glabels
+namespace glabels::model
 {
-	namespace model
-	{
 
-		QList<Category> XmlCategoryParser::readFile( const QString &fileName )
-		{
-			QFile file( fileName );
+        QList<Category> XmlCategoryParser::readFile( const QString &fileName )
+        {
+                QFile file( fileName );
 
-			if ( !file.open( QFile::ReadOnly | QFile::Text) )
-			{
-				qWarning() << "Error: Cannot read file " << fileName
-				           << ": " << file.errorString();
-				return QList<Category>(); // Empty list
-			}
+                if ( !file.open( QFile::ReadOnly | QFile::Text) )
+                {
+                        qWarning() << "Error: Cannot read file " << fileName
+                                   << ": " << file.errorString();
+                        return QList<Category>(); // Empty list
+                }
 
 
-			QDomDocument doc;
-			QString      errorString;
-			int          errorLine;
-			int          errorColumn;
+                QDomDocument doc;
+                QString      errorString;
+                int          errorLine;
+                int          errorColumn;
 
-			if ( !doc.setContent( &file, false, &errorString, &errorLine, &errorColumn ) )
-			{
-				qWarning() << "Error: Parse error at line " << errorLine
-				           << "column " << errorColumn
-				           << ": " << errorString;
-				return QList<Category>(); // Empty list
-			}
+                if ( !doc.setContent( &file, false, &errorString, &errorLine, &errorColumn ) )
+                {
+                        qWarning() << "Error: Parse error at line " << errorLine
+                                   << "column " << errorColumn
+                                   << ": " << errorString;
+                        return QList<Category>(); // Empty list
+                }
 
-			QDomElement root = doc.documentElement();
-			if ( root.tagName() != "Glabels-categories" )
-			{
-				qWarning() << "Error: Not a Glabels-categories file.";
-				return QList<Category>(); // Empty list
-			}
+                QDomElement root = doc.documentElement();
+                if ( root.tagName() != "Glabels-categories" )
+                {
+                        qWarning() << "Error: Not a Glabels-categories file.";
+                        return QList<Category>(); // Empty list
+                }
 
-			return parseRootNode( root );
-		}
-
-
-		QList<Category> XmlCategoryParser::parseRootNode( const QDomElement &node )
-		{
-			QList<Category> list;
-
-			for ( QDomNode child = node.firstChild(); !child.isNull(); child = child.nextSibling() )
-			{
-				if ( child.toElement().tagName() == "Category" )
-				{
-					list.push_back( parseCategoryNode( child.toElement() ) );
-				}
-				else if ( !child.isComment() )
-				{
-					qWarning() << "Warning: bad element: "
-					           << child.toElement().tagName()
-					           << ", Ignored.";
-				}
-			}
-
-			return list;
-		}
+                return parseRootNode( root );
+        }
 
 
-		Category XmlCategoryParser::parseCategoryNode( const QDomElement &node )
-		{
-			QString id   = XmlUtil::getStringAttr( node, "id", "" );
-			QString name = XmlUtil::getI18nAttr( node, "name", "" );
+        QList<Category> XmlCategoryParser::parseRootNode( const QDomElement &node )
+        {
+                QList<Category> list;
 
-			return Category( id, name );
-		}
+                for ( QDomNode child = node.firstChild(); !child.isNull(); child = child.nextSibling() )
+                {
+                        if ( child.toElement().tagName() == "Category" )
+                        {
+                                list.push_back( parseCategoryNode( child.toElement() ) );
+                        }
+                        else if ( !child.isComment() )
+                        {
+                                qWarning() << "Warning: bad element: "
+                                           << child.toElement().tagName()
+                                           << ", Ignored.";
+                        }
+                }
+
+                return list;
+        }
 
 
-	}
+        Category XmlCategoryParser::parseCategoryNode( const QDomElement &node )
+        {
+                QString id   = XmlUtil::getStringAttr( node, "id", "" );
+                QString name = XmlUtil::getI18nAttr( node, "name", "" );
+
+                return Category( id, name );
+        }
+
+
 }

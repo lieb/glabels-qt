@@ -1,76 +1,77 @@
-/*  Merge/TextSemicolonKeys.cpp
- *
- *  Copyright (C) 2016  Jaye Evins <evins@snaught.com>
- *
- *  This file is part of gLabels-qt.
- *
- *  gLabels-qt is free software: you can redistribute it and/or modify
- *  it under the terms of the GNU General Public License as published by
- *  the Free Software Foundation, either version 3 of the License, or
- *  (at your option) any later version.
- *
- *  gLabels-qt is distributed in the hope that it will be useful,
- *  but WITHOUT ANY WARRANTY; without even the implied warranty of
- *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- *  GNU General Public License for more details.
- *
- *  You should have received a copy of the GNU General Public License
- *  along with gLabels-qt.  If not, see <http://www.gnu.org/licenses/>.
- */
-
-#include "TextSemicolonKeys.h"
+//  Merge/TextSemicolonKeys.cpp
+//
+//  Copyright (C) 2016  Jaye Evins <evins@snaught.com>
+//
+//  This file is part of gLabels-qt.
+//
+//  gLabels-qt is free software: you can redistribute it and/or modify
+//  it under the terms of the GNU General Public License as published by
+//  the Free Software Foundation, either version 3 of the License, or
+//  (at your option) any later version.
+//
+//  gLabels-qt is distributed in the hope that it will be useful,
+//  but WITHOUT ANY WARRANTY; without even the implied warranty of
+//  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//  GNU General Public License for more details.
+//
+//  You should have received a copy of the GNU General Public License
+//  along with gLabels-qt.  If not, see <http://www.gnu.org/licenses/>.
+//
 
 
-namespace glabels
+#include "TextSemicolonKeys.hpp"
+
+
+namespace
 {
-	namespace merge
-	{
-
-		static const QString ID = "Text/Semicolon/Keys";
+        static const QString ID = "Text/Semicolon/Keys";
+}
 
 
-		///
-		/// Constructor
-		///
-		TextSemicolonKeys::TextSemicolonKeys() : Text(';',true)
-		{
-			mId = ID;
-		}
+namespace glabels::merge
+{
+
+        ///
+        /// Constructor
+        ///
+        TextSemicolonKeys::TextSemicolonKeys() : Text(';',true)
+        {
+                mId = ID;
+        }
 
 
-		///
-		/// Constructor
-		///
-		TextSemicolonKeys::TextSemicolonKeys( const TextSemicolonKeys* merge ) : Text( merge )
-		{
-		}
+        ///
+        /// Constructor
+        ///
+        TextSemicolonKeys::TextSemicolonKeys( const TextSemicolonKeys* merge ) : Text( merge )
+        {
+        }
 
 
-		///
-		/// Clone
-		///
-		TextSemicolonKeys* TextSemicolonKeys::clone() const
-		{
-			return new TextSemicolonKeys( this );
-		}
+        ///
+        /// Clone
+        ///
+        TextSemicolonKeys* TextSemicolonKeys::clone() const
+        {
+                return new TextSemicolonKeys( this );
+        }
 
 
-		///
-		/// Get ID
-		///
-		QString TextSemicolonKeys::id()
-		{
-			return ID;
-		}
+        ///
+        /// Get ID
+        ///
+        QString TextSemicolonKeys::id()
+        {
+                return ID;
+        }
 
 
-		///
-		/// Create
-		///
-		Merge* TextSemicolonKeys::create()
-		{
-			return new TextSemicolonKeys();
-		}
+        ///
+        /// Create
+        ///
+        Merge* TextSemicolonKeys::create()
+        {
+                return new TextSemicolonKeys();
+        }
 
-	} // namespace merge
-} // namespace glabels
+}

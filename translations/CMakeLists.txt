@@ -17,7 +17,7 @@ qt6_create_translation (glabels_C_qm_file
   OPTIONS -no-obsolete -locations none
 )
 qt6_create_translation (templates_C_qm_file
-  ${CMAKE_CURRENT_BINARY_DIR}/template-strings.h
+  ${CMAKE_CURRENT_BINARY_DIR}/template-strings.hpp
   templates_C.ts
   OPTIONS -no-obsolete -locations none
 )
@@ -41,12 +41,12 @@ add_dependencies (glabels-qt update_translations)
 #=======================================
 # XmlStrings utility
 #=======================================
-add_executable (XmlStrings WIN32
+add_executable (XmlStrings
   XmlStrings.cpp
 )
 
-target_compile_features (Model
-  PUBLIC cxx_std_11
+target_compile_features (XmlStrings
+  PUBLIC cxx_std_20
 )
 
 target_link_libraries (XmlStrings
@@ -64,15 +64,15 @@ string (REGEX REPLACE "([^;]+)" "${CMAKE_SOURCE_DIR}/templates/\\1"
 )
 
 add_custom_command (
-  OUTPUT template-strings.h
-  COMMAND XmlStrings ${xml_files} > template-strings.h
+  OUTPUT template-strings.hpp
+  COMMAND XmlStrings ${xml_files} > template-strings.hpp
   COMMENT "Extracting template strings."
   DEPENDS XmlStrings ${xml_files}
 )
 
-set_source_files_properties (template-strings.h PROPERTIES GENERATED TRUE)
+set_source_files_properties (template-strings.hpp PROPERTIES GENERATED TRUE)
 
-add_custom_target (template-strings DEPENDS template-strings.h)
+add_custom_target (template-strings DEPENDS template-strings.hpp)
 
 
 #=======================================

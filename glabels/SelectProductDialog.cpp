@@ -1,310 +1,310 @@
-/*  SelectProductDialog.cpp
- *
- *  Copyright (C) 2013-2016  Jaye Evins <evins@snaught.com>
- *
- *  This file is part of gLabels-qt.
- *
- *  gLabels-qt is free software: you can redistribute it and/or modify
- *  it under the terms of the GNU General Public License as published by
- *  the Free Software Foundation, either version 3 of the License, or
- *  (at your option) any later version.
- *
- *  gLabels-qt is distributed in the hope that it will be useful,
- *  but WITHOUT ANY WARRANTY; without even the implied warranty of
- *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- *  GNU General Public License for more details.
- *
- *  You should have received a copy of the GNU General Public License
- *  along with gLabels-qt.  If not, see <http://www.gnu.org/licenses/>.
- */
+//  SelectProductDialog.cpp
+//
+//  Copyright (C) 2013-2016  Jaye Evins <evins@snaught.com>
+//
+//  This file is part of gLabels-qt.
+//
+//  gLabels-qt is free software: you can redistribute it and/or modify
+//  it under the terms of the GNU General Public License as published by
+//  the Free Software Foundation, either version 3 of the License, or
+//  (at your option) any later version.
+//
+//  gLabels-qt is distributed in the hope that it will be useful,
+//  but WITHOUT ANY WARRANTY; without even the implied warranty of
+//  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//  GNU General Public License for more details.
+//
+//  You should have received a copy of the GNU General Public License
+//  along with gLabels-qt.  If not, see <http://www.gnu.org/licenses/>.
+//
 
 
-#include "SelectProductDialog.h"
+#include "SelectProductDialog.hpp"
 
-#include "NotebookUtil.h"
-#include "TemplatePickerItem.h"
+#include "NotebookUtil.hpp"
+#include "TemplatePickerItem.hpp"
 
-#include "model/Db.h"
-#include "model/Settings.h"
+#include "model/Db.hpp"
+#include "model/Settings.hpp"
 
-#include <QtDebug>
+#include <QDebug>
 
 
 namespace glabels
 {
-	
-	///
-	/// Constructor
-	///
-	SelectProductDialog::SelectProductDialog( QWidget *parent )
-		: QDialog(parent)
-	{
-		setupUi( this );
-		productInfoWidget->setVisible( false );
 
-		pageSizeIsoCheck->setChecked( model::Settings::searchIsoPaperSizes() );
-		pageSizeUsCheck->setChecked( model::Settings::searchUsPaperSizes() );
-		pageSizeOtherCheck->setChecked( model::Settings::searchOtherPaperSizes() );
+        ///
+        /// Constructor
+        ///
+        SelectProductDialog::SelectProductDialog( QWidget *parent )
+                : QDialog(parent)
+        {
+                setupUi( this );
+                productInfoWidget->setVisible( false );
 
-		allCategoriesRadio->setChecked( model::Settings::searchAllCategories() );
-		selectedCategoriesRadio->setChecked( !model::Settings::searchAllCategories() );
+                pageSizeIsoCheck->setChecked( model::Settings::searchIsoPaperSizes() );
+                pageSizeUsCheck->setChecked( model::Settings::searchUsPaperSizes() );
+                pageSizeOtherCheck->setChecked( model::Settings::searchOtherPaperSizes() );
 
-		categoriesCheckContainer->setEnabled( !model::Settings::searchAllCategories() );
-		mCategoryIdList = model::Settings::searchCategoryList();
-	
-		auto categories = model::Db::categories();
-		for ( auto& category : categories )
-		{
-			QCheckBox* check = new QCheckBox( category.name() );
-			check->setChecked( mCategoryIdList.contains( category.id() ) );
-			categoriesLayout->addWidget( check );
+                allCategoriesRadio->setChecked( model::Settings::searchAllCategories() );
+                selectedCategoriesRadio->setChecked( !model::Settings::searchAllCategories() );
 
-			mCheckList.append( check );
-			mCheckToCategoryMap[check] = category.id();
+                categoriesCheckContainer->setEnabled( !model::Settings::searchAllCategories() );
+                mCategoryIdList = model::Settings::searchCategoryList();
 
-			connect( check, SIGNAL(clicked()), this, SLOT(onCategoryCheckClicked()) );
-		}
+                auto categories = model::Db::categories();
+                for ( auto& category : categories )
+                {
+                        QCheckBox* check = new QCheckBox( category.name() );
+                        check->setChecked( mCategoryIdList.contains( category.id() ) );
+                        categoriesLayout->addWidget( check );
 
-		NotebookUtil::establishSize( modeNotebook );
+                        mCheckList.append( check );
+                        mCheckToCategoryMap[check] = category.id();
 
-		if ( templatePicker->mode() == QListView::IconMode )
-		{
-			viewModeButton->setIcon( QIcon::fromTheme( "glabels-view-list" ) );
-			viewModeButton->setToolTip( tr( "List View" ) );
-		}
-		else
-		{
-			viewModeButton->setIcon( QIcon::fromTheme( "glabels-view-grid" ) );
-			viewModeButton->setToolTip( tr( "Grid View" ) );
-		}
-		
-		auto tmplates = model::Db::templates();
-		templatePicker->setTemplates( tmplates );
+                        connect( check, SIGNAL(clicked()), this, SLOT(onCategoryCheckClicked()) );
+                }
 
-		if ( model::Settings::recentTemplateList().count() > 0 )
-		{
-			modeNotebook->setCurrentIndex(1);
-		}
+                NotebookUtil::establishSize( modeNotebook );
 
-		onModeTabChanged();
-	}
+                if ( templatePicker->mode() == QListView::IconMode )
+                {
+                        viewModeButton->setIcon( QIcon::fromTheme( "glabels-view-list" ) );
+                        viewModeButton->setToolTip( tr( "List View" ) );
+                }
+                else
+                {
+                        viewModeButton->setIcon( QIcon::fromTheme( "glabels-view-grid" ) );
+                        viewModeButton->setToolTip( tr( "Grid View" ) );
+                }
 
-	
-	///
-	/// Get selected template
-	///
-	model::Template SelectProductDialog::tmplate() const
-	{
-		if ( mHasSelection )
-		{
-			return templatePicker->selectedTemplate();
-		}
-		else
-		{
-			return model::Template();
-		}
-	}
+                auto tmplates = model::Db::templates();
+                templatePicker->setTemplates( tmplates );
+
+                if ( model::Settings::recentTemplateList().count() > 0 )
+                {
+                        modeNotebook->setCurrentIndex(1);
+                }
+
+                onModeTabChanged();
+        }
 
 
-	///
-	/// Mode Notebook Tab Changed Slot
-	///
-	void SelectProductDialog::onModeTabChanged()
-	{
-		switch (modeNotebook->currentIndex())
-		{
-		case 0:
-			// Search Tab
-			templatePicker->applyFilter( searchEntry->text(),
-			                             pageSizeIsoCheck->isChecked(),
-			                             pageSizeUsCheck->isChecked(),
-			                             pageSizeOtherCheck->isChecked(),
-			                             allCategoriesRadio->isChecked(),
-			                             mCategoryIdList );
-			break;
-		case 1:
-			// Recent Tab
-			templatePicker->applyFilter( model::Settings::recentTemplateList() );
-			break;
-		default:
-			qDebug() << "onModeTabChanged(): unknown tab!";
-		}
-	}
+        ///
+        /// Get selected template
+        ///
+        model::Template SelectProductDialog::tmplate() const
+        {
+                if ( mHasSelection )
+                {
+                        return templatePicker->selectedTemplate();
+                }
+                else
+                {
+                        return model::Template();
+                }
+        }
 
 
-	///
-	/// Search Entry Text Changed Slot
-	///
-	void SelectProductDialog::onSearchEntryTextChanged()
-	{
-		templatePicker->applyFilter( searchEntry->text(),
-		                             pageSizeIsoCheck->isChecked(),
-		                             pageSizeUsCheck->isChecked(),
-		                             pageSizeOtherCheck->isChecked(),
-		                             allCategoriesRadio->isChecked(),
-		                             mCategoryIdList );
-	}
+        ///
+        /// Mode Notebook Tab Changed Slot
+        ///
+        void SelectProductDialog::onModeTabChanged()
+        {
+                switch (modeNotebook->currentIndex())
+                {
+                case 0:
+                        // Search Tab
+                        templatePicker->applyFilter( searchEntry->text(),
+                                                     pageSizeIsoCheck->isChecked(),
+                                                     pageSizeUsCheck->isChecked(),
+                                                     pageSizeOtherCheck->isChecked(),
+                                                     allCategoriesRadio->isChecked(),
+                                                     mCategoryIdList );
+                        break;
+                case 1:
+                        // Recent Tab
+                        templatePicker->applyFilter( model::Settings::recentTemplateList() );
+                        break;
+                default:
+                        qDebug() << "onModeTabChanged(): unknown tab!";
+                }
+        }
 
 
-	///
-	/// Page Size Check Clicked Slot
-	///
-	void SelectProductDialog::onPageSizeCheckClicked()
-	{
-		model::Settings::setSearchIsoPaperSizes( pageSizeIsoCheck->isChecked() );
-		model::Settings::setSearchUsPaperSizes( pageSizeUsCheck->isChecked() );
-		model::Settings::setSearchOtherPaperSizes( pageSizeOtherCheck->isChecked() );
-
-		templatePicker->applyFilter( searchEntry->text(),
-		                             pageSizeIsoCheck->isChecked(),
-		                             pageSizeUsCheck->isChecked(),
-		                             pageSizeOtherCheck->isChecked(),
-		                             allCategoriesRadio->isChecked(),
-		                             mCategoryIdList );
-	}
+        ///
+        /// Search Entry Text Changed Slot
+        ///
+        void SelectProductDialog::onSearchEntryTextChanged()
+        {
+                templatePicker->applyFilter( searchEntry->text(),
+                                             pageSizeIsoCheck->isChecked(),
+                                             pageSizeUsCheck->isChecked(),
+                                             pageSizeOtherCheck->isChecked(),
+                                             allCategoriesRadio->isChecked(),
+                                             mCategoryIdList );
+        }
 
 
-	///
-	/// Category Radio Clicked Slot
-	///
-	void SelectProductDialog::onCategoryRadioClicked()
-	{
-		categoriesCheckContainer->setEnabled( selectedCategoriesRadio->isChecked() );
-		loadCategoryList();
+        ///
+        /// Page Size Check Clicked Slot
+        ///
+        void SelectProductDialog::onPageSizeCheckClicked()
+        {
+                model::Settings::setSearchIsoPaperSizes( pageSizeIsoCheck->isChecked() );
+                model::Settings::setSearchUsPaperSizes( pageSizeUsCheck->isChecked() );
+                model::Settings::setSearchOtherPaperSizes( pageSizeOtherCheck->isChecked() );
 
-		templatePicker->applyFilter( searchEntry->text(),
-		                             pageSizeIsoCheck->isChecked(),
-		                             pageSizeUsCheck->isChecked(),
-		                             pageSizeOtherCheck->isChecked(),
-		                             allCategoriesRadio->isChecked(),
-		                             mCategoryIdList );
-
-		model::Settings::setSearchAllCategories( allCategoriesRadio->isChecked() );
-	}
-
-
-	///
-	/// Category Check Clicked Slot
-	///
-	void SelectProductDialog::onCategoryCheckClicked()
-	{
-		loadCategoryList();
-
-		templatePicker->applyFilter( searchEntry->text(),
-		                             pageSizeIsoCheck->isChecked(),
-		                             pageSizeUsCheck->isChecked(),
-		                             pageSizeOtherCheck->isChecked(),
-		                             allCategoriesRadio->isChecked(),
-		                             mCategoryIdList );
+                templatePicker->applyFilter( searchEntry->text(),
+                                             pageSizeIsoCheck->isChecked(),
+                                             pageSizeUsCheck->isChecked(),
+                                             pageSizeOtherCheck->isChecked(),
+                                             allCategoriesRadio->isChecked(),
+                                             mCategoryIdList );
+        }
 
 
-		model::Settings::setSearchCategoryList( mCategoryIdList );
-	}
+        ///
+        /// Category Radio Clicked Slot
+        ///
+        void SelectProductDialog::onCategoryRadioClicked()
+        {
+                categoriesCheckContainer->setEnabled( selectedCategoriesRadio->isChecked() );
+                loadCategoryList();
+
+                templatePicker->applyFilter( searchEntry->text(),
+                                             pageSizeIsoCheck->isChecked(),
+                                             pageSizeUsCheck->isChecked(),
+                                             pageSizeOtherCheck->isChecked(),
+                                             allCategoriesRadio->isChecked(),
+                                             mCategoryIdList );
+
+                model::Settings::setSearchAllCategories( allCategoriesRadio->isChecked() );
+        }
 
 
-	///
-	/// View Mode Button Clicked Slot
-	///
-	void SelectProductDialog::onViewModeButtonClicked()
-	{
-		if ( templatePicker->mode() == QListView::IconMode )
-		{
-			templatePicker->setMode( QListView::ListMode );
+        ///
+        /// Category Check Clicked Slot
+        ///
+        void SelectProductDialog::onCategoryCheckClicked()
+        {
+                loadCategoryList();
 
-			viewModeButton->setIcon( QIcon::fromTheme( "glabels-view-list" ) );
-			viewModeButton->setToolTip( tr( "List View" ) );
-		}
-		else
-		{
-			templatePicker->setMode( QListView::IconMode );
-
-			viewModeButton->setIcon( QIcon::fromTheme( "glabels-view-grid" ) );
-			viewModeButton->setToolTip( tr( "Grid View" ) );
-		}
-	}
+                templatePicker->applyFilter( searchEntry->text(),
+                                             pageSizeIsoCheck->isChecked(),
+                                             pageSizeUsCheck->isChecked(),
+                                             pageSizeOtherCheck->isChecked(),
+                                             allCategoriesRadio->isChecked(),
+                                             mCategoryIdList );
 
 
-	///
-	/// Template Picker Selection Changed Slot
-	///
-	void SelectProductDialog::onTemplatePickerSelectionChanged()
-	{
-		auto tmplate   = templatePicker->selectedTemplate();
-		if ( tmplate.isNull() )
-		{
-			productInfoWidget->setVisible( false );
-			selectButton->setEnabled( false );
-			return;
-		}
-		
-		auto frame = tmplate.frame();
-
-		preview->setTemplate( tmplate );
-
-		vendorLabel->setText( tmplate.brand() );
-		if ( model::Db::isVendorNameKnown( tmplate.brand() ) )
-		{
-			auto vendor = model::Db::lookupVendorFromName( tmplate.brand() );
-			if ( !vendor.url().isEmpty() )
-			{
-				QString markup = QString( "<a href='%1'>%2</a>" ).arg( vendor.url(), vendor.name() );
-				vendorLabel->setText( markup );
-			}
-		}
-
-		if ( !tmplate.productUrl().isEmpty() )
-		{
-			QString markup = QString( "<a href='%1'>%2</a>" ).arg( tmplate.productUrl(), tmplate.part() );
-			partLabel->setText( markup );
-		}
-		else
-		{
-			partLabel->setText( tmplate.part() );
-		}
-
-		descriptionLabel->setText( tmplate.description() );
-		pageSizeLabel->setText( tmplate.paperDescription( model::Settings::units() ) );
-		labelSizeLabel->setText( frame->sizeDescription( model::Settings::units() ) );
-		layoutLabel->setText( frame->layoutDescription() );
-
-		productInfoWidget->setVisible( true );
-		selectButton->setEnabled( true );
-	}
+                model::Settings::setSearchCategoryList( mCategoryIdList );
+        }
 
 
-	///
-	/// Select Button Clicked Slot
-	///
-	void SelectProductDialog::onSelectButtonClicked()
-	{
-		mHasSelection = true;
-		close();
-	}
+        ///
+        /// View Mode Button Clicked Slot
+        ///
+        void SelectProductDialog::onViewModeButtonClicked()
+        {
+                if ( templatePicker->mode() == QListView::IconMode )
+                {
+                        templatePicker->setMode( QListView::ListMode );
+
+                        viewModeButton->setIcon( QIcon::fromTheme( "glabels-view-list" ) );
+                        viewModeButton->setToolTip( tr( "List View" ) );
+                }
+                else
+                {
+                        templatePicker->setMode( QListView::IconMode );
+
+                        viewModeButton->setIcon( QIcon::fromTheme( "glabels-view-grid" ) );
+                        viewModeButton->setToolTip( tr( "Grid View" ) );
+                }
+        }
 
 
-	///
-	/// Cancel Button Clicked Slot
-	///
-	void SelectProductDialog::onCancelButtonClicked()
-	{
-		close();
-	}
+        ///
+        /// Template Picker Selection Changed Slot
+        ///
+        void SelectProductDialog::onTemplatePickerSelectionChanged()
+        {
+                auto tmplate   = templatePicker->selectedTemplate();
+                if ( tmplate.isNull() )
+                {
+                        productInfoWidget->setVisible( false );
+                        selectButton->setEnabled( false );
+                        return;
+                }
+
+                auto frame = tmplate.frame();
+
+                preview->setTemplate( tmplate );
+
+                vendorLabel->setText( tmplate.brand() );
+                if ( model::Db::isVendorNameKnown( tmplate.brand() ) )
+                {
+                        auto vendor = model::Db::lookupVendorFromName( tmplate.brand() );
+                        if ( !vendor.url().isEmpty() )
+                        {
+                                QString markup = QString( "<a href='%1'>%2</a>" ).arg( vendor.url(), vendor.name() );
+                                vendorLabel->setText( markup );
+                        }
+                }
+
+                if ( !tmplate.productUrl().isEmpty() )
+                {
+                        QString markup = QString( "<a href='%1'>%2</a>" ).arg( tmplate.productUrl(), tmplate.part() );
+                        partLabel->setText( markup );
+                }
+                else
+                {
+                        partLabel->setText( tmplate.part() );
+                }
+
+                descriptionLabel->setText( tmplate.description() );
+                pageSizeLabel->setText( tmplate.paperDescription( model::Settings::units() ) );
+                labelSizeLabel->setText( frame->sizeDescription( model::Settings::units() ) );
+                layoutLabel->setText( frame->layoutDescription() );
+
+                productInfoWidget->setVisible( true );
+                selectButton->setEnabled( true );
+        }
 
 
-	///
-	/// Load category list
-	///
-	void SelectProductDialog::loadCategoryList()
-	{
-		mCategoryIdList.clear();
+        ///
+        /// Select Button Clicked Slot
+        ///
+        void SelectProductDialog::onSelectButtonClicked()
+        {
+                mHasSelection = true;
+                close();
+        }
 
-		for ( QCheckBox* check : mCheckList )
-		{
-			if ( check->isChecked() )
-			{
-				mCategoryIdList.append( mCheckToCategoryMap[check] );
-			}
-		}
-	}
+
+        ///
+        /// Cancel Button Clicked Slot
+        ///
+        void SelectProductDialog::onCancelButtonClicked()
+        {
+                close();
+        }
+
+
+        ///
+        /// Load category list
+        ///
+        void SelectProductDialog::loadCategoryList()
+        {
+                mCategoryIdList.clear();
+
+                for ( QCheckBox* check : mCheckList )
+                {
+                        if ( check->isChecked() )
+                        {
+                                mCategoryIdList.append( mCheckToCategoryMap[check] );
+                        }
+                }
+        }
 
 } // namespace glabels
