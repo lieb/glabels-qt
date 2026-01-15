@@ -1,4 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS version="2.1" language="de">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.1" language="de">
 <context>
     <name>AboutDialog</name>
     <message>
@@ -787,7 +789,7 @@
     </message>
     <message>
         <source>Vendor:</source>
-        <translation>Hersteller</translation>
+        <translation>Hersteller:</translation>
     </message>
     <message>
         <source>TextLabel</source>
@@ -795,19 +797,19 @@
     </message>
     <message>
         <source>Part #:</source>
-        <translation>Artikelnummer</translation>
+        <translation>Artikelnummer:</translation>
     </message>
     <message>
         <source>Description:</source>
-        <translation>Beschreibung</translation>
+        <translation>Beschreibung:</translation>
     </message>
     <message>
         <source>Page size:</source>
-        <translation>Seitengröße</translation>
+        <translation>Seitengröße:</translation>
     </message>
     <message>
         <source>Label size:</source>
-        <translation>Etikettgröße</translation>
+        <translation>Etikettgröße:</translation>
     </message>
     <message>
         <source>Layout:</source>
@@ -1634,7 +1636,7 @@
     </message>
     <message>
         <source>Create ellipse/circle object</source>
-        <translation>Ein Ein Ellipsen- oder Kreisobjekt erstellen</translation>
+        <translation>Ein Ellipsen- oder Kreisobjekt erstellen</translation>
     </message>
     <message>
         <source>Image</source>
@@ -2159,11 +2161,11 @@
     </message>
     <message>
         <source>To submit a bug report, click on the button below.  This will open a web browser to the gLabels github issue tracking page.</source>
-        <translation>Um einen Fehlerbericht zu erstellen, klicken Sie auf den untenstehenden Knopf. Dadurch wird ein Webbrowser mit der Github-Seite der Fehlermeldungen für gLabels geöffnet. </translation>
+        <translation>Um einen Fehlerbericht zu erstellen, klicken Sie auf den untenstehenden Knopf. Dadurch wird ein Webbrowser mit der Github-Seite der Fehlermeldungen für gLabels geöffnet.</translation>
     </message>
     <message>
         <source>Be sure to include a detailed description of the problem and how to recreate it.  Attach any screenshots and/or example glabels project files that may illustrate the problem.</source>
-        <translation>Beschreiben Sie das Problem detailliert und wie der Fehler reproduziert werden kann. Fügen Sie bei Bedarf Bildschirmfotos und Beispiele für gLabels-Projektdateien hinzu, die das Problem illustrieren können. </translation>
+        <translation>Beschreiben Sie das Problem detailliert und wie der Fehler reproduziert werden kann. Fügen Sie bei Bedarf Bildschirmfotos und Beispiele für gLabels-Projektdateien hinzu, die das Problem illustrieren können.</translation>
     </message>
     <message>
         <source>Before submitting a report, look through the existing issues for similar or related bugs.  If the issue has already been reported, please consider contributing to its report instead.  Otherwise, create a new issue report. Please paste the following information into the issue description.</source>
