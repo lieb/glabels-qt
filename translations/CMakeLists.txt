@@ -1,10 +1,23 @@
+#===========================================
+# Create list of ts files from LINGUAS file
+#===========================================
+function (expand_linguas out_var linguas_file basename)
+
+	 file (STRINGS ${linguas_file} codes REGEX "^[^#].*$")
+	 list (TRANSFORM codes REPLACE "\(.+\)" "${basename}_\\1.ts" OUTPUT_VARIABLE filenames)
+	 set (${out_var} ${filenames} PARENT_SCOPE)
+	 
+endfunction ()
+
+
 #=======================================
 # Translation files
 #=======================================
 # without this a "make clean" would delete the .ts files
 set_directory_properties (PROPERTIES CLEAN_NO_CUSTOM 1)
 
-include (TRANSLATION_FILES.txt)
+expand_linguas (GLABELS_TS_FILES "LINGUAS" "glabels")
+expand_linguas (TEMPLATES_TS_FILES "LINGUAS" "templates")
 
 #
 # Update strings in C-locale translation files (lupdate+lrelease)
