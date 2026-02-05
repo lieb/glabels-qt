@@ -50,8 +50,12 @@
 
 namespace
 {
+        using namespace glabels::model;
+
         const uint32_t GDK_PIXBUF_MAGIC_NUMBER {0x47646b50};
-        const double FONT_SCALE_FACTOR {0.75};
+
+        const double   FONT_SCALE_FACTOR       {0.75};               // In glabels-3, fonts were rendered at 75% of specified fontsize
+        const Distance MARGIN_OFFSET           { Distance::pt(3) };  // In glabels-3, margin was not accounted for in text baseline calculations
 
         typedef enum
         {
@@ -463,35 +467,35 @@ namespace glabels::model
         XmlLabelParser_3::parseObjectTextNode( const QDomElement &node )
         {
                 /* position attrs */
-                const Distance x0 = XmlUtil::getLengthAttr( node, "x", 0.0 );
-                const Distance y0 = XmlUtil::getLengthAttr( node, "y", 0.0 );
+                Distance x0 = XmlUtil::getLengthAttr( node, "x", 0.0 );
+                Distance y0 = XmlUtil::getLengthAttr( node, "y", 0.0 );
 
                 /* size attrs */
-                const Distance w = XmlUtil::getLengthAttr( node, "w", 0 );
-                const Distance h = XmlUtil::getLengthAttr( node, "h", 0 );
+                Distance w = XmlUtil::getLengthAttr( node, "w", 0 );
+                Distance h = XmlUtil::getLengthAttr( node, "h", 0 );
 
                 /* justify attr */
-                const Qt::Alignment textHAlign = getHAlignmentAttr( node, "justify", Qt::AlignLeft );
+                Qt::Alignment textHAlign = getHAlignmentAttr( node, "justify", Qt::AlignLeft );
 
                 /* valign attr */
-                const Qt::Alignment textVAlign = getVAlignmentAttr( node, "valign", Qt::AlignTop );
+                Qt::Alignment textVAlign = getVAlignmentAttr( node, "valign", Qt::AlignTop );
 
                 /* auto_shrink attr */
-                const bool textAutoShrink = XmlUtil::getBoolAttr( node, "auto_shrink", false );
+                bool textAutoShrink = XmlUtil::getBoolAttr( node, "auto_shrink", false );
 
                 /* affine attrs */
-                const auto affineTransformation = parseAffineTransformation(node);
+                auto affineTransformation = parseAffineTransformation(node);
 
                 /* shadow attrs */
-                const bool     shadowState   = XmlUtil::getBoolAttr( node, "shadow", false );
-                const Distance shadowX       = XmlUtil::getLengthAttr( node, "shadow_x", 0.0 );
-                const Distance shadowY       = XmlUtil::getLengthAttr( node, "shadow_y", 0.0 );
-                const double   shadowOpacity = XmlUtil::getDoubleAttr( node, "shadow_opacity", 1.0 );
+                bool     shadowState   = XmlUtil::getBoolAttr( node, "shadow", false );
+                Distance shadowX       = XmlUtil::getLengthAttr( node, "shadow_x", 0.0 );
+                Distance shadowY       = XmlUtil::getLengthAttr( node, "shadow_y", 0.0 );
+                double   shadowOpacity = XmlUtil::getDoubleAttr( node, "shadow_opacity", 1.0 );
 
                 QString key            = XmlUtil::getStringAttr( node, "shadow_color_field", "" );
                 bool field_flag        = !key.isEmpty();
                 uint32_t color         = XmlUtil::getUIntAttr( node, "shadow_color", 0 );
-                const ColorNode shadowColorNode( field_flag, color, key );
+                ColorNode shadowColorNode( field_flag, color, key );
 
                 /* font attrs */
                 QString       fontFamily = "Sans";
@@ -576,6 +580,20 @@ namespace glabels::model
                 }
                 const QString text = document.toPlainText();
 
+                // Compensate for differences in glabels-3 text baseline calculations
+                switch ( textVAlign )
+                {
+                case Qt::AlignVCenter:
+                        // No adjustment should be needed
+                        break;
+                case Qt::AlignBottom:
+                        y0 += MARGIN_OFFSET;
+                        break;
+                default:
+                        y0 -= MARGIN_OFFSET;
+                        break;
+                }
+
                 auto textNode = new ModelTextObject( x0, y0, w, h, false /*lockAspectRatio*/, text,
                                                      fontFamily, fontSize, fontWeight, fontItalicFlag, false,
                                                      textColorNode, textHAlign, textVAlign, textWrapMode, textLineSpacing,
@@ -583,9 +601,11 @@ namespace glabels::model
                                                      affineTransformation,
                                                      shadowState, shadowX, shadowY, shadowOpacity, shadowColorNode );
 
-                // The size of the textnode does not fit the qt world. So it's needed to
-                // recalculate the size depending on the data.
-                textNode->setSize(textNode->naturalSize());
+                if ( (w.pt() == 0) || (h.pt() == 0) )
+                {
+                        // Do our best to autosize
+                        textNode->setSize(textNode->naturalSize());
+                }
 
                 return textNode;
         }
