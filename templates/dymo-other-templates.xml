@@ -7,8 +7,8 @@
   <!-- =================================================================== -->
   <Template brand="Dymo" part="30252" _description="Address labels"
 	    size="roll" roll_width="31mm" width="28mm" height="89mm" >
-    <Meta category="label" />
-    <Meta category="mail" />
+    <Meta category="label"/>
+    <Meta category="mail"/>
     <Label-rectangle id="0" width="28mm" height="89mm" round="1mm" x_waste="0mm" y_waste="0mm" >
       <Markup-rect x1="1mm" y1="6mm" w="26mm" h="77mm" />
       <Layout nx="1" ny="1" x0="0" y0="0" dx="0" dy="0" />
@@ -39,8 +39,8 @@
   <!-- =================================================================== -->
   <Template brand="Dymo" part="30915" _description="Postage stamp labels"
 	    size="roll" roll_width="51mm" width="41mm" height="31mm" >
-    <Meta category="label" />
-    <Meta category="mail" />
+    <Meta category="label"/>
+    <Meta category="mail"/>
     <Label-path id="0" x_waste="0mm" y_waste="0mm" d_units="mm"
 		d="M 0 1
 		   l 1 -1 l 1 1  l 1 -1 l 1 1  l 1 -1 l 1 1  l 1 -1 l 1 1  l 1 -1 l 1 1

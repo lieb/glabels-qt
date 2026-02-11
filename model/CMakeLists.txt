@@ -31,6 +31,7 @@ set (Model_sources
   FramePath.cpp
   FrameRect.cpp
   FrameRound.cpp
+  GenericTemplate.cpp
   Handle.cpp
   Layout.cpp
   Markup.cpp

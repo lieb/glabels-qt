@@ -24,6 +24,7 @@
 #include "Config.hpp"
 #include "StrUtil.hpp"
 #include "FileUtil.hpp"
+#include "GenericTemplate.hpp"
 #include "Settings.hpp"
 #include "XmlCategoryParser.hpp"
 #include "XmlPaperParser.hpp"
@@ -87,6 +88,7 @@ namespace glabels::model
                 readCategories();
                 readVendors();
                 readTemplates();
+                createGenericTemplates();
         }
 
 
@@ -470,11 +472,12 @@ namespace glabels::model
                 for ( auto& paper : mPapers )
                 {
                         qDebug() << "paper "
-                                 << "id="       << paper.id()          << ", "
-                                 << "name="     << paper.name()        << ", "
-                                 << "width="    << paper.width().pt()  << "pts, "
-                                 << "height="   << paper.height().pt() << "pts, "
-                                 << "pwg_size=" << paper.pwgSize();
+                                 << "id="        << paper.id()          << ", "
+                                 << "name="      << paper.name()        << ", "
+                                 << "width="     << paper.width().pt()  << "pts, "
+                                 << "height="    << paper.height().pt() << "pts, "
+                                 << "pwg_class=" << paper.pwgClass()
+                                 << "type="      << paper.type();
                 }
 
                 qDebug();
@@ -693,6 +696,25 @@ namespace glabels::model
                 else
                 {
                         qWarning() << "Duplicate template name: " << tmplate.name();
+                }
+        }
+
+
+        void Db::createGenericTemplates()
+        {
+                for ( auto& paper : papers() )
+                {
+                        if ( paper.type() == Paper::SHEET )
+                        {
+                                registerTemplate( GenericTemplate::fullPage( paper ) );
+                                registerTemplate( GenericTemplate::halfPage1x2( paper ) );
+                                registerTemplate( GenericTemplate::halfPage2x1( paper ) );
+                                registerTemplate( GenericTemplate::quarterPage2x2( paper ) );
+                        }
+                        else if ( paper.type() == Paper::ENVELOPE )
+                        {
+                                registerTemplate( GenericTemplate::envelope( paper ) );
+                        }
                 }
         }
 

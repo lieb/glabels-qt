@@ -114,6 +114,8 @@ namespace glabels::model
                 static void readTemplatesFromDir( const QDir& dir );
                 static void registerTemplate( const Template& tmplate );
 
+                static void createGenericTemplates();
+
                 static void readUserTemplatesFromDir( const QDir& dir );
 
 

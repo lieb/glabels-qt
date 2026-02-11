@@ -244,7 +244,7 @@
     <Meta category="business-card"/>
     <Label-rectangle id="0" width="243.78" height="153.07">  
       <Markup-margin size="5"/>
-      <Layout nx="2" ny="5" x0="48.19" y0="42.50" dx="255.12" dy="157.32"/>  
+      <Layout nx="2" ny="5" x0="48.19" y0="42.50" dx="255.12" dy="157.32"/>
     </Label-rectangle> 
   </Template>
 
@@ -397,7 +397,7 @@
     <Meta category="media"/>
     <Label-cd id="0" radius="166.5" hole="58.5" waste="5">
       <Markup-margin size="5"/>
-      <Layout nx="1" ny="2" x0="125" y0="68.890" dx="0" dy="360"/>        
+      <Layout nx="1" ny="2" x0="125" y0="68.890" dx="0" dy="360"/>
     </Label-cd>                                                      
   </Template>
 
@@ -570,7 +570,7 @@
   <!-- =================================================================== -->
   <Template brand="Sigel" part="LA 505" size="A4" _description="CD/DVD labels">
     <Meta category="label"/>
-    <Meta category="media"/> 
+    <Meta category="media"/>
     <Label-cd id="0" radius="58.5mm" hole="8.5mm" waste="2mm">
       <Markup-margin size="3.175mm"/>
       <Layout nx="1" ny="1" x0="45mm" y0="20mm" dx="123.4mm" dy="123.4mm"/>

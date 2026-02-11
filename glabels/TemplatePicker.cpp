@@ -207,6 +207,7 @@ namespace glabels
                         if ( auto* tItem = dynamic_cast<TemplatePickerItem *>( mModel->item( i, 0 ) ) )
                         {
                                 bool nameMask = tItem->tmplate().name().contains( searchString, Qt::CaseInsensitive );
+                                bool descMask = tItem->tmplate().description().contains( searchString, Qt::CaseInsensitive );
 
                                 bool sizeMask =
                                         (isoMask   && tItem->tmplate().isSizeIso())   ||
@@ -228,7 +229,7 @@ namespace glabels
                                 }
 
 
-                                if (  nameMask && sizeMask && categoryMask )
+                                if (  (nameMask||descMask) && sizeMask && categoryMask )
                                 {
                                         setRowHidden( i, false );
                                 }
