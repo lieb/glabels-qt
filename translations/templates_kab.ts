@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="ro">
+<TS version="2.1" language="kab">
 <context>
     <name>XmlStrings</name>
     <message>
         <source>Address labels</source>
-        <translation>Etichete de adresă</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Any card</source>
-        <translation>Orice carte</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Any label</source>
-        <translation>Orice etichetă</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Arch file inserts</source>
@@ -37,7 +37,7 @@
     </message>
     <message>
         <source>Business cards</source>
-        <translation>Cărți de vizită</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>CD/DVD booklet</source>
@@ -65,7 +65,7 @@
     </message>
     <message>
         <source>CD/DVD labels</source>
-        <translation>Etichete CD/DVD</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>CD/DVD labels (disc labels)</source>
@@ -85,7 +85,7 @@
     </message>
     <message>
         <source>CD/DVD or other media</source>
-        <translation>CD/DVD sau alte media</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>CD/DVD tray</source>
@@ -121,11 +121,11 @@
     </message>
     <message>
         <source>Diskette labels</source>
-        <translation>Etichete dischete</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Elliptical labels</source>
-        <translation>Etichete eliptice</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>File folder labels</source>
@@ -141,15 +141,15 @@
     </message>
     <message>
         <source>Flyer paper</source>
-        <translation>Hârtie de afiș</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Foldable business cards</source>
-        <translation>Cărți de vizită pliabile</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Foldable cards</source>
-        <translation>Cărți pliabile</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Full face CD/DVD labels</source>
@@ -165,7 +165,7 @@
     </message>
     <message>
         <source>Greeting cards</source>
-        <translation>Cărți de întâmpinare</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Hanging folder labels</source>
@@ -177,7 +177,7 @@
     </message>
     <message>
         <source>Labels</source>
-        <translation>Etichete</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Large address labels</source>
@@ -193,11 +193,11 @@
     </message>
     <message>
         <source>Mailing labels</source>
-        <translation>Etichete de corespondență</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Mailing/shipping products</source>
-        <translation>Produse de corespondeță/transport</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Medical chart labels</source>
@@ -205,7 +205,7 @@
     </message>
     <message>
         <source>Membership cards</source>
-        <translation>Cărți de membru</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Metal tin container labels</source>
@@ -217,7 +217,7 @@
     </message>
     <message>
         <source>Mini Disc labels</source>
-        <translation>Mini etichete de discuri</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Mini address labels</source>
@@ -241,7 +241,7 @@
     </message>
     <message>
         <source>Name plates</source>
-        <translation>Plăci de nume</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Nutritional labels</source>
@@ -253,23 +253,23 @@
     </message>
     <message>
         <source>Passport photo labels</source>
-        <translation>Etichete cu poze de pașaport</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Photo labels</source>
-        <translation>Etichete foto</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Photo products</source>
-        <translation>Produse foto</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Printable mousepad</source>
-        <translation>Mousepad imprimabil</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Rectangular labels</source>
-        <translation>Etichete dreptunghice</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Return address labels</source>
@@ -277,11 +277,11 @@
     </message>
     <message>
         <source>Round labels</source>
-        <translation>Etichete rotunde</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>SD card labels</source>
-        <translation>Etichete de carduri SD</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Seal labels</source>
@@ -289,11 +289,11 @@
     </message>
     <message>
         <source>Shipping labels</source>
-        <translation>Etichete de transport</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Square labels</source>
-        <translation>Etichete pătrate</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Target stickers</source>
@@ -321,7 +321,7 @@
     </message>
     <message>
         <source>Zip disc labels</source>
-        <translation>Etichete discuri zip</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Bookplate labels</source>
@@ -393,7 +393,7 @@
     </message>
     <message>
         <source>Post cards</source>
-        <translation>Cărți poștale</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Tent cards</source>

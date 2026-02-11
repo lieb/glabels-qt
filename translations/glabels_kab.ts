@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="lv">
+<TS version="2.1" language="kab">
 <context>
     <name>AboutDialog</name>
     <message>
         <source>About gLabels</source>
-        <translation>Par glabels</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>&amp;License</source>
-        <translation>&amp;Licence</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>&amp;Website</source>
-        <translation>&amp;Tīmekļa vietne</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>&amp;Close</source>
-        <translation>&amp;Aizvērt</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -64,7 +64,7 @@
     </message>
     <message>
         <source>Orange</source>
-        <translation>Oranžs</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Butter</source>
@@ -132,7 +132,7 @@
     </message>
     <message>
         <source>Black</source>
-        <translation>Melns</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Very Dark Gray</source>
@@ -164,7 +164,7 @@
     </message>
     <message>
         <source>White</source>
-        <translation>Balts</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -175,7 +175,7 @@
     </message>
     <message>
         <source>Name:</source>
-        <translation>Vārds:</translation>
+        <translation>Isem:</translation>
     </message>
     <message>
         <source>Step size:</source>
@@ -191,22 +191,22 @@
     </message>
     <message>
         <source>Type:</source>
-        <translation>Tips:</translation>
+        <translation>Tawsit:</translation>
     </message>
     <message>
         <source>Value:</source>
-        <translation>Vērtība:</translation>
+        <translation>Azal:</translation>
     </message>
 </context>
 <context>
     <name>Factory</name>
     <message>
         <source>None</source>
-        <translation type="unfinished"></translation>
+        <translation>Ula yiwet</translation>
     </message>
     <message>
         <source>Text: Comma Separated Values (CSV)</source>
-        <translation>Teksts — ar komatu atdalītas vērtības (CSV)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Text: Comma Separated Values (CSV), keys on line 1</source>
@@ -214,7 +214,7 @@
     </message>
     <message>
         <source>Text: Tab Separated Values (TSV)</source>
-        <translation>Teksts — ar tabulāciju atdalītas vērtības (TSV)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Text: Tab Separated Values (TSV), keys on line 1</source>
@@ -242,19 +242,19 @@
     <message>
         <source>%1 x %2 (%3 per sheet)</source>
         <extracomment>%1 = number of labels across a page, %2 = number of labels down a page, %3 = total number of labels on a page (sheet).</extracomment>
-        <translation>%1 x %2 (%3 loksnē)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>%1 per sheet</source>
         <extracomment>%1 is the total number of labels on a page (sheet).</extracomment>
-        <translation>%1 loksnē</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>FrameCd</name>
     <message>
         <source>diameter</source>
-        <translation>diametrs</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -268,22 +268,22 @@
     <name>FrameRound</name>
     <message>
         <source>diameter</source>
-        <translation>diametrs</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>MergeView</name>
     <message>
         <source>Source</source>
-        <translation>Avots</translation>
+        <translation>Aɣbalu</translation>
     </message>
     <message>
         <source>Format:</source>
-        <translation>Formāts:</translation>
+        <translation>Amasal:</translation>
     </message>
     <message>
         <source>Location:</source>
-        <translation>Vieta:</translation>
+        <translation>Adig:</translation>
     </message>
     <message>
         <source>Records</source>
@@ -291,14 +291,18 @@
     </message>
     <message>
         <source>Select all</source>
-        <translation>Izvēlēties visu</translation>
+        <translation>Fren-iten akk</translation>
     </message>
     <message>
         <source>Unselect all</source>
-        <translation>Neizvēlēties neko</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Browse...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Reload</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -306,19 +310,19 @@
     <name>ObjectEditor</name>
     <message>
         <source>Object properties</source>
-        <translation>Objekta īpašības</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Text</source>
-        <translation>Teksts</translation>
+        <translation>Aḍris</translation>
     </message>
     <message>
         <source>Layout</source>
-        <translation>Izkārtojums</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Alignment:</source>
-        <translation>Līdzinājums:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Line spacing:</source>
@@ -330,7 +334,7 @@
     </message>
     <message>
         <source>Word</source>
-        <translation type="unfinished"></translation>
+        <translation>Awal</translation>
     </message>
     <message>
         <source>Anywhere</source>
@@ -338,7 +342,7 @@
     </message>
     <message>
         <source>None</source>
-        <translation>Nekas</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Allow printing to shrink text to fit object</source>
@@ -346,59 +350,59 @@
     </message>
     <message>
         <source>Font</source>
-        <translation>Fonts</translation>
+        <translation>Tasefsit</translation>
     </message>
     <message>
         <source>Family:</source>
-        <translation>Saime:</translation>
+        <translation>Tawacult:</translation>
     </message>
     <message>
         <source>Size:</source>
-        <translation>Izmērs:</translation>
+        <translation>Tiddi:</translation>
     </message>
     <message>
         <source>Style:</source>
-        <translation>Stils:</translation>
+        <translation>Aɣanib:</translation>
     </message>
     <message>
         <source>Color:</source>
-        <translation>Krāsa:</translation>
+        <translation>Ini:</translation>
     </message>
     <message>
         <source>Editor</source>
-        <translation type="unfinished"></translation>
+        <translation>Amaẓrag</translation>
     </message>
     <message>
         <source>Barcode</source>
-        <translation>Svītrkods</translation>
-    </message>
-    <message>
-        <source>Style</source>
-        <translation>Stils</translation>
-    </message>
-    <message>
-        <source>Type:</source>
-        <translation>Tips:</translation>
-    </message>
-    <message>
-        <source>Show text</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <source>Style</source>
+        <translation>Aɣanib</translation>
+    </message>
+    <message>
+        <source>Type:</source>
+        <translation>Tawsit:</translation>
+    </message>
+    <message>
+        <source>Show text</source>
+        <translation>Sken-d aḍris</translation>
+    </message>
+    <message>
         <source>Checksum</source>
-        <translation>Kontrolsumma</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Barcode data</source>
-        <translation>Svītrkoda dati</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Image</source>
-        <translation>Attēls</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>File</source>
-        <translation>Datne</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Browse...</source>
@@ -406,51 +410,51 @@
     </message>
     <message>
         <source>Line/Fill</source>
-        <translation>Līnija/Aizpildīt</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Line</source>
-        <translation>Līnija</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Width:</source>
-        <translation>Platums:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Fill</source>
-        <translation>Aizpildīt</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Position/Size</source>
-        <translation>Pozīcija/Izmērs</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Position</source>
-        <translation>Pozīcija</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>X:</source>
-        <translation>X:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Y:</source>
-        <translation>Y:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Size</source>
-        <translation>Izmērs</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Length:</source>
-        <translation>Garums:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Angle:</source>
-        <translation>Leņķis:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Original size:</source>
-        <translation>Oriģinālais izmērs:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Reset</source>
@@ -462,23 +466,23 @@
     </message>
     <message>
         <source>Height:</source>
-        <translation>Augstums:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Shadow</source>
-        <translation>Ēna</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>X offset:</source>
-        <translation>X nobīde:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Y offset:</source>
-        <translation>Y nobīde:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Opacity:</source>
-        <translation>Necaurspīdīgums:</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -489,31 +493,31 @@
     </message>
     <message>
         <source>Locale</source>
-        <translation>Lokāle</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Select locale specific behavior.</source>
-        <translation>Izvēlieties lokālei specifisku uzvedību.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Units</source>
-        <translation>Mērvienības</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Points</source>
-        <translation>Punkti</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Centimeters</source>
-        <translation>Centimetri</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Millimeters</source>
-        <translation>Milimetri</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Inches</source>
-        <translation>Collas</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Picas</source>
@@ -521,7 +525,7 @@
     </message>
     <message>
         <source>Grid</source>
-        <translation>Režģis</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Configure grid behavior.</source>
@@ -552,27 +556,27 @@
     <name>PrintView</name>
     <message>
         <source>Copies:</source>
-        <translation>Kopijas:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>print outlines</source>
-        <translation>izdrukāt kontūras</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>print crop marks</source>
-        <translation>drukāt apciršanas zīmes</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>print in reverse (i.e. a mirror image)</source>
-        <translation>drukāt pretēji (tas ir, attēls ir spoguļskatā)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Page</source>
-        <translation type="unfinished"></translation>
+        <translation>Asebter</translation>
     </message>
     <message>
         <source>of</source>
-        <translation type="unfinished"></translation>
+        <translation>ɣef</translation>
     </message>
     <message>
         <source>nn</source>
@@ -580,11 +584,11 @@
     </message>
     <message>
         <source>Pages</source>
-        <translation type="unfinished"></translation>
+        <translation>Isebtaren</translation>
     </message>
     <message>
         <source>Options</source>
-        <translation>Opcijas</translation>
+        <translation>Tixtiṛiyin</translation>
     </message>
     <message>
         <source>Print range</source>
@@ -628,7 +632,7 @@
     </message>
     <message>
         <source>Print</source>
-        <translation>Drukāt</translation>
+        <translation>Siggez</translation>
     </message>
     <message>
         <source>Use system print dialog...</source>
@@ -639,27 +643,27 @@
     <name>PropertiesView</name>
     <message>
         <source>Product</source>
-        <translation>Produkts</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Vendor:</source>
-        <translation>Ražotājs:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>TextLabel</source>
-        <translation>TextLabel</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Part #:</source>
-        <translation>Daļas #:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Description:</source>
-        <translation>Apraksts:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Page size:</source>
-        <translation>Lapas izmērs:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Label size:</source>
@@ -667,7 +671,7 @@
     </message>
     <message>
         <source>Layout:</source>
-        <translation>Izkārtojums:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Change product</source>
@@ -683,7 +687,7 @@
     </message>
     <message>
         <source>Orientation</source>
-        <translation>Orientācija</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Select horizontal or vertical orientation.</source>
@@ -714,11 +718,11 @@
     </message>
     <message>
         <source>Copy</source>
-        <translation>Kopēt</translation>
+        <translation>Nɣel</translation>
     </message>
     <message>
         <source>Ctrl+C</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+C</translation>
     </message>
     <message>
         <source>&amp;Launch Issue Tracker</source>
@@ -733,11 +737,11 @@
     </message>
     <message>
         <source>Search all</source>
-        <translation>Meklēt visu</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Search</source>
-        <translation type="unfinished"></translation>
+        <translation>Nadi</translation>
     </message>
     <message>
         <source>Filter by paper size</source>
@@ -761,7 +765,7 @@
     </message>
     <message>
         <source>All</source>
-        <translation type="unfinished"></translation>
+        <translation>Akk</translation>
     </message>
     <message>
         <source>Selected</source>
@@ -773,7 +777,7 @@
     </message>
     <message>
         <source>Recent</source>
-        <translation>Nesenās</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Select from recently used products.</source>
@@ -789,46 +793,46 @@
     </message>
     <message>
         <source>Vendor:</source>
-        <translation>Ražotājs:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>TextLabel</source>
-        <translation>TextLabel</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Part #:</source>
-        <translation>Daļas #:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Description:</source>
-        <translation>Apraksts:</translation>
+        <translation>Aglam:</translation>
     </message>
     <message>
         <source>Page size:</source>
-        <translation>Lapas izmērs:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Label size:</source>
-        <translation>Etiķetes izmērs:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Layout:</source>
-        <translation>Izkārtojums:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Select</source>
-        <translation>Izvēlēties</translation>
+        <translation>Fren</translation>
     </message>
 </context>
 <context>
     <name>StartupView</name>
     <message>
         <source>Welcome to gLabels.  Let&apos;s get started:</source>
-        <translation type="unfinished"></translation>
+        <translation>Ansuf ar gLabels.  Yyaɣ ihi ad nebdu:</translation>
     </message>
     <message>
         <source>Create a new blank gLabels project</source>
-        <translation type="unfinished"></translation>
+        <translation>Snulfu-d asenfar gLabels amaynut ilem</translation>
     </message>
     <message>
         <source>Open a recent gLabels project</source>
@@ -840,15 +844,15 @@
     </message>
     <message>
         <source>New...</source>
-        <translation>Jauns …</translation>
+        <translation>Amaynut…</translation>
     </message>
     <message>
         <source>Browse...</source>
-        <translation type="unfinished"></translation>
+        <translation>Snirem…</translation>
     </message>
     <message>
         <source>Open an existing gLabels project</source>
-        <translation type="unfinished"></translation>
+        <translation>Ldi-d asenfar n gLabels i yellan</translation>
     </message>
 </context>
 <context>
@@ -866,27 +870,27 @@
     <name>TemplateDesignerCdPage</name>
     <message>
         <source>6. Margin:</source>
-        <translation>6. mala:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>1. Outer radius:</source>
-        <translation>1. ārējais rādiuss:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>4. Clipping height:</source>
-        <translation>4. apciršanas augstums:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>2. Inner radius:</source>
-        <translation>2. iekšējais rādiuss:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>3. Clipping width:</source>
-        <translation>3. apciršanas platums:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>5. Waste:</source>
-        <translation>5. atgriezumi:</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -900,19 +904,19 @@
     <name>TemplateDesignerEllipsePage</name>
     <message>
         <source>2. Height:</source>
-        <translation>2. augstums:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>1. Width:</source>
-        <translation>1. platums:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>3. Waste:</source>
-        <translation>3. atgriezumi:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>4. Margin:</source>
-        <translation>4. mala:</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -927,7 +931,7 @@
     </message>
     <message>
         <source>New Product</source>
-        <translation>Jauns produkts</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Create a new product template from scratch</source>
@@ -969,77 +973,77 @@
     <name>TemplateDesignerNamePage</name>
     <message>
         <source>(e.g. &quot;Mailing Labels,&quot; &quot;Business Cards,&quot; ...)</source>
-        <translation>(piemēram, “Pasta etiķetes”, “Vizītkartes”, …)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Brand:</source>
-        <translation>Zīmols:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Part #:</source>
-        <translation>Daļas #:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Description:</source>
-        <translation>Apraksts:</translation>
+        <translation>Aglam:</translation>
     </message>
     <message>
         <source>(e.g. 8163A)</source>
-        <translation>(piemēram, 8163A)</translation>
+        <translation>(amedya 8163A)</translation>
     </message>
     <message>
         <source>(e.g. Avery, Acme, ...)</source>
-        <translation>(piemēram, Avery, Acme, …)</translation>
+        <translation>(amedya Avery, Acme, ...)</translation>
     </message>
 </context>
 <context>
     <name>TemplateDesignerOneLayoutPage</name>
     <message>
         <source>Number across (nx):</source>
-        <translation>Skaits rindā (nx):</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Number down (ny):</source>
-        <translation>Skaits kolonnā (ny):</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Distance from left edge (x0):</source>
-        <translation>Attālums no kreisās malas (x0):</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Distance from top edge (y0):</source>
-        <translation>Attālums no augšējās malas (y0):</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Horizontal pitch (dx):</source>
-        <translation>Horizontālā novietne (dx):</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Vertical pitch (dy):</source>
-        <translation>Vertikālā novietne (dy):</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Print test sheet</source>
-        <translation>Drukāt testa loksli</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>TemplateDesignerPageSizePage</name>
     <message>
         <source>Roll width:</source>
-        <translation>Ruļļa platums:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Height:</source>
-        <translation>Augstums:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Width:</source>
-        <translation>Platums:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Page size:</source>
-        <translation>Lapas izmērs:</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1053,31 +1057,31 @@
     <name>TemplateDesignerRectPage</name>
     <message>
         <source>4. Horizontal waste:</source>
-        <translation>4. horiz. atgriezumi:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>3. Corner radius</source>
-        <translation>3. stūra rādiuss</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>1. Width:</source>
-        <translation>1. platums:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>5. Vertical waste:</source>
-        <translation>5. vert. atgriezumi:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>2. Height:</source>
-        <translation>2. Augstums:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>6. Margin (X):</source>
-        <translation>6. mala (X):</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>7. Margin (Y):</source>
-        <translation>7. mala (Y):</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>in</source>
@@ -1088,88 +1092,88 @@
     <name>TemplateDesignerRoundPage</name>
     <message>
         <source>3. Margin</source>
-        <translation>3. mala</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>1. Radius:</source>
-        <translation>1. rādiuss:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>2. Waste:</source>
-        <translation>2. atgriezumi:</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>TemplateDesignerShapePage</name>
     <message>
         <source>Rectangular or square (can have rounded corners)</source>
-        <translation>Taisnstūra vai kvadrāta (var būt noapaļoti stūri)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Round</source>
-        <translation>Apaļš</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Elliptical</source>
-        <translation>Elipsveida</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>CD/DVD (including credit card CDs)</source>
-        <translation>CD/DVD (tai skaitā kredītkaršu CD)</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>TemplateDesignerTwoLayoutPage</name>
     <message>
         <source>Distance from left edge (x0):</source>
-        <translation>Attālums no kreisās malas (x0):</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Number down (ny):</source>
-        <translation>Skaits kolonnā (ny):</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Distance from top edge (y0):</source>
-        <translation>Attālums no augšējās malas (y0):</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Number across (nx):</source>
-        <translation>Skaits rindā (nx):</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Horizontal pitch (dx):</source>
-        <translation>Horizontālā novietne (dx):</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Vertical pitch (dy):</source>
-        <translation>Vertikālā novietne (dy):</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Print test sheet</source>
-        <translation>Drukāt testa loksli</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>Units</name>
     <message>
         <source>points</source>
-        <translation>punkti</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>inches</source>
-        <translation>collas</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>mm</source>
-        <translation>mm</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>cm</source>
-        <translation>cm</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>picas</source>
-        <translation>cicero</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1204,22 +1208,22 @@
     </message>
     <message>
         <source>Color</source>
-        <translation>Krāsa</translation>
+        <translation>Ini</translation>
     </message>
 </context>
 <context>
     <name>VariablesView</name>
     <message>
         <source>Add</source>
-        <translation type="unfinished"></translation>
+        <translation>Rnu</translation>
     </message>
     <message>
         <source>Edit</source>
-        <translation type="unfinished"></translation>
+        <translation>Ẓreg</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation>Dzēst</translation>
+        <translation>Kkes</translation>
     </message>
     <message>
         <source>Add variable</source>
@@ -1238,7 +1242,7 @@
     <name>glabels::AboutDialog</name>
     <message>
         <source>Version</source>
-        <translation>Versija</translation>
+        <translation>Lqem</translation>
     </message>
     <message>
         <source>A program to create labels and business cards.</source>
@@ -1246,25 +1250,25 @@
     </message>
     <message>
         <source>gLabels is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.</source>
-        <translation>gLabels ir brīva programmatūra; jūs varat to brīvi modificēt un/vai izplatīt saskaņā ar Free Software Foundation GNU Vispārējās publiskās licences 3 vai kādas brīvi izvēlētas vēlākas versijas noteikumiem.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>gLabels is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.</source>
-        <translation>gLabels tiek izplatīta ar cerību, ka tā būs noderīga, tā tiek izplatīta BEZ JEBKĀDAS GARANTIJAS vai DERĪBAS KĀDAM MĒRĶIM. Sīkāku informāciju meklējiet GNU Vispārējās publiskās licences tekstā.</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>glabels::ColorHistory</name>
     <message>
         <source>color %1</source>
-        <translation>Krāsa %1</translation>
+        <translation>ini %1</translation>
     </message>
 </context>
 <context>
     <name>glabels::ColorPaletteDialog</name>
     <message>
         <source>Standard Colors</source>
-        <translation>Standarta krāsas</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Recent Colors</source>
@@ -1276,12 +1280,12 @@
     </message>
     <message>
         <source>Custom Color</source>
-        <translation>Izvēlētā krāsa</translation>
+        <translation>Ini udmawan</translation>
     </message>
     <message>
         <source>Custom Color %1</source>
         <extracomment>%1 = color specification in hex. String must not contain a colon (:).</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Ini udmawan %1</translation>
     </message>
     <message>
         <source>Use substitution field</source>
@@ -1292,7 +1296,7 @@
     <name>glabels::EditVariableDialog</name>
     <message>
         <source>Default</source>
-        <translation>Noklusējuma</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1303,7 +1307,7 @@
     </message>
     <message>
         <source>Variables</source>
-        <translation>Mainīgie lielumi</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1345,15 +1349,15 @@
     <name>glabels::LabelEditor</name>
     <message>
         <source>Move</source>
-        <translation>Pārvietot</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation>Dzēst</translation>
+        <translation>Kkes</translation>
     </message>
     <message>
         <source>Resize</source>
-        <translation>Mainīt izmēru</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Drop</source>
@@ -1364,15 +1368,15 @@
     <name>glabels::MainWindow</name>
     <message>
         <source>Welcome</source>
-        <translation>Laipni lūdzam</translation>
+        <translation>Ansuf</translation>
     </message>
     <message>
         <source>Edit</source>
-        <translation type="unfinished"></translation>
+        <translation>Ẓreg</translation>
     </message>
     <message>
         <source>Properties</source>
-        <translation>Īpašības</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Merge</source>
@@ -1380,15 +1384,15 @@
     </message>
     <message>
         <source>Variables</source>
-        <translation>Mainīgie lielumi</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Print</source>
-        <translation>Drukāt</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>&amp;New...</source>
-        <translation>Jau&amp;ns …</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Create a new gLabels project</source>
@@ -1396,7 +1400,7 @@
     </message>
     <message>
         <source>&amp;Open...</source>
-        <translation>&amp;Atvērt …</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Open an existing gLabels project</source>
@@ -1404,7 +1408,7 @@
     </message>
     <message>
         <source>&amp;Save</source>
-        <translation>&amp;Saglabāt</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Save current gLabels project</source>
@@ -1412,7 +1416,7 @@
     </message>
     <message>
         <source>Save &amp;As...</source>
-        <translation>S&amp;aglabāt kā …</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Save current gLabels project to a different name</source>
@@ -1428,7 +1432,7 @@
     </message>
     <message>
         <source>P&amp;roperties</source>
-        <translation>Ī&amp;pašības</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Select project Properties mode</source>
@@ -1444,7 +1448,7 @@
     </message>
     <message>
         <source>&amp;Variables</source>
-        <translation>&amp;Mainīgie lielumi</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Select project Variables mode</source>
@@ -1452,7 +1456,7 @@
     </message>
     <message>
         <source>&amp;Print</source>
-        <translation>&amp;Drukāt</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Select project Print mode</source>
@@ -1468,7 +1472,7 @@
     </message>
     <message>
         <source>&amp;Close</source>
-        <translation>&amp;Aizvērt</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Close the current window</source>
@@ -1484,75 +1488,75 @@
     </message>
     <message>
         <source>Undo</source>
-        <translation>Atsaukt</translation>
-    </message>
-    <message>
-        <source>Redo</source>
-        <translation>Atatsaukt</translation>
-    </message>
-    <message>
-        <source>Cut</source>
-        <translation>Izgriezt</translation>
-    </message>
-    <message>
-        <source>Cut the selection</source>
-        <translation>Izgriezt izvēlēto</translation>
-    </message>
-    <message>
-        <source>&amp;Copy</source>
-        <translation>&amp;Kopēt</translation>
-    </message>
-    <message>
-        <source>Copy the selection</source>
-        <translation>Kopēt izvēlēto</translation>
-    </message>
-    <message>
-        <source>&amp;Paste</source>
-        <translation>&amp;Ielīmēt</translation>
-    </message>
-    <message>
-        <source>Paste the clipboard</source>
-        <translation>Ielīmēt starpliktuvi</translation>
-    </message>
-    <message>
-        <source>&amp;Delete</source>
-        <translation>&amp;Dzēst</translation>
-    </message>
-    <message>
-        <source>Delete the selected objects</source>
-        <translation>Dzēst izvēlētos objektus</translation>
-    </message>
-    <message>
-        <source>Select &amp;All</source>
-        <translation>Izvēlēties &amp;visu</translation>
-    </message>
-    <message>
-        <source>Select all objects</source>
-        <translation>Meklēt visus objektus</translation>
-    </message>
-    <message>
-        <source>Un-select All</source>
-        <translation>Neizvēlēties neko</translation>
-    </message>
-    <message>
-        <source>Remove all selections</source>
-        <translation>Izņemt visu izvēli</translation>
-    </message>
-    <message>
-        <source>Preferences</source>
-        <translation>Iestatījumi</translation>
-    </message>
-    <message>
-        <source>Configure the application</source>
-        <translation>Konfigurēt lietotni</translation>
-    </message>
-    <message>
-        <source>Editor</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <source>Redo</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Cut</source>
+        <translation>Gzem</translation>
+    </message>
+    <message>
+        <source>Cut the selection</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Copy</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Copy the selection</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Paste</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Paste the clipboard</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Delete</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Delete the selected objects</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Select &amp;All</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Select all objects</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Un-select All</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Remove all selections</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Preferences</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Configure the application</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Editor</source>
+        <translation>Amaẓrag</translation>
+    </message>
+    <message>
         <source>Grid</source>
-        <translation>Režģis</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Change visibility of the grid in current window</source>
@@ -1560,7 +1564,7 @@
     </message>
     <message>
         <source>Markup</source>
-        <translation>Marķējums</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Change visibility of markup lines in current window</source>
@@ -1568,127 +1572,127 @@
     </message>
     <message>
         <source>Zoom &amp;In</source>
-        <translation>T&amp;uvināt</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Increase magnification</source>
-        <translation>Palielināt mērogu</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Zoom &amp;Out</source>
-        <translation>&amp;Tālināt</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Decrease magnification</source>
-        <translation>Samazināt mērogu</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Zoom &amp;1 to 1</source>
-        <translation>Mērogs &amp;1 pret 1</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Restore scale to 100%</source>
-        <translation>Atjaunot mērogu uz 100%</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Zoom to &amp;Fit</source>
-        <translation>&amp;Mainīt mērogu, lai ietilptu</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Set scale to fit window</source>
-        <translation>Iestatīt mērogu, lai iekļautos logā</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Select Mode</source>
-        <translation>Izvēles režīms</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Select, move and modify objects</source>
-        <translation>Izvēlēties, pārvietot un modificēt objektus</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Text</source>
-        <translation>Teksts</translation>
+        <translation>Aḍris</translation>
     </message>
     <message>
         <source>Create text object</source>
-        <translation>Izveidot teksta objektu</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Box</source>
-        <translation>Kaste</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Create box object</source>
-        <translation>Izveidot kastes objektu</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Line</source>
-        <translation>Līnija</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Create line object</source>
-        <translation>Izveidot līnijas objektu</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Ellipse</source>
-        <translation>Elipse</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Create ellipse/circle object</source>
-        <translation>Izveidot elipses/apļa objektu</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Image</source>
-        <translation>Attēls</translation>
+        <translation>Tugna</translation>
     </message>
     <message>
         <source>Create image object</source>
-        <translation>Izveidot attēla objektu</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Barcode</source>
-        <translation>Svītrkods</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Create barcode object</source>
-        <translation>Izveidot svītrkoda objekt</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Bring To Front</source>
-        <translation>Pārvietot uz priekšu</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Raise selection to top</source>
-        <translation>Pacelt objektu augšpusē</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Send To Back</source>
-        <translation>Nosūtīt uz aizmuguri</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Lower selection to bottom</source>
-        <translation>Pazemināt objektu uz apakšu</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Rotate Left</source>
-        <translation>Pagriezt pa kreisi</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Rotate object(s) 90 degrees counter-clockwise</source>
-        <translation>Pagriezt objektu par 90 grādiem pretēji pulksteņrādītāja virzienam</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Rotate Right</source>
-        <translation>Pagriezt pa labi</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Rotate object(s) 90 degrees clockwise</source>
-        <translation>Pagriezt objektu par 90 grādiem pulksteņrādītāja virzienā</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Flip Horizontally</source>
-        <translation>Apmest horizontāli</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Flip object(s) horizontally</source>
@@ -1696,7 +1700,7 @@
     </message>
     <message>
         <source>Flip Vertically</source>
-        <translation>Apmest vertikāli</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Flip object(s) vertically</source>
@@ -1704,67 +1708,67 @@
     </message>
     <message>
         <source>Align Left</source>
-        <translation>Līdzināt pa kreisi</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Align objects to left edges</source>
-        <translation>Līdzināt objektu pie kreisās malas</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Align Center</source>
-        <translation>Līdzināt vidū</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Align objects to horizontal centers</source>
-        <translation>Līdzināt objektu pie horizontālā centra</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Align Right</source>
-        <translation>Līdzināt pa labi</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Align objects to right edges</source>
-        <translation>Līdzināt objektu pie labās malas</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Align Top</source>
-        <translation>Līdzināt augšpusē</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Align objects to top edges</source>
-        <translation>Līdzināt objektu pie augšējās malas</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Align Middle</source>
-        <translation>Līdzināt vidū</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Align objects to vertical centers</source>
-        <translation>Līdzināt objektu pie vertikālā centra</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Align Bottom</source>
-        <translation>Līdzināt apakšā</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Align objects to bottom edges</source>
-        <translation>Līdzināt objektu pie apakšējās malas</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Center Horizontally</source>
-        <translation>Centrēt horizontāli</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Horizontally center objects in label</source>
-        <translation>Centrēt objektu pie horizontālā etiķetes centra</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Center Vertically</source>
-        <translation>Centrēt vertikāli</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Vertically center objects in label</source>
-        <translation>Centrēt objektu pie vertikālā etiķetes centra</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Open gLabels manual</source>
@@ -1772,19 +1776,19 @@
     </message>
     <message>
         <source>&amp;About...</source>
-        <translation>&amp;Par …</translation>
+        <translation>&amp;Ɣef...</translation>
     </message>
     <message>
         <source>About gLabels</source>
-        <translation>Par glabels</translation>
+        <translation>Ɣef gLabels</translation>
     </message>
     <message>
         <source>&amp;File</source>
-        <translation>&amp;Datne</translation>
+        <translation>A&amp;faylu</translation>
     </message>
     <message>
         <source>&amp;View</source>
-        <translation>&amp;Skats</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Toolbars</source>
@@ -1792,23 +1796,23 @@
     </message>
     <message>
         <source>&amp;Objects</source>
-        <translation>&amp;Objekti</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>&amp;Create</source>
-        <translation>Izveido&amp;t</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>&amp;Order</source>
-        <translation>Kārt&amp;ot</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>&amp;Rotate/Flip</source>
-        <translation>Pag&amp;riezt/apmest</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>&amp;Alignment</source>
-        <translation>&amp;Līdzinājums</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Center</source>
@@ -1816,7 +1820,7 @@
     </message>
     <message>
         <source>&amp;Help</source>
-        <translation>&amp;Palīdzība</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>&amp;Editor</source>
@@ -1824,7 +1828,7 @@
     </message>
     <message>
         <source>(modified)</source>
-        <translation>(izmainīts)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Save changes to project &quot;%1&quot; before closing?</source>
@@ -1832,7 +1836,7 @@
     </message>
     <message>
         <source>Your changes will be lost if you don&apos;t save them.</source>
-        <translation>Ja nesaglabāsiet, izmaiņas tiks zaudētas.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Save project?</source>
@@ -1840,35 +1844,35 @@
     </message>
     <message>
         <source>Paste</source>
-        <translation>Ielīmēt</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation>Dzēst</translation>
+        <translation>Kkes</translation>
     </message>
     <message>
         <source>Create Text</source>
-        <translation>Izveidot teksta objektu</translation>
+        <translation>Snulfu-d aḍris</translation>
     </message>
     <message>
         <source>Create Box</source>
-        <translation>Izveidot kastes objektu</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Create Line</source>
-        <translation>Izveidot līnijas objektu</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Create Ellipse</source>
-        <translation>Izveidot elipses objektu</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Create Image</source>
-        <translation>Izveidot attēla objektu</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Create Barcode</source>
-        <translation>Izveidot svītrkoda objekt</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Quick Access</source>
@@ -1933,18 +1937,18 @@
     </message>
     <message>
         <source>All files (*)</source>
-        <translation type="unfinished"></translation>
+        <translation>Akk ifuyla (*)</translation>
     </message>
 </context>
 <context>
     <name>glabels::ObjectEditor</name>
     <message>
         <source>No line</source>
-        <translation>Nav rindu</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>No fill</source>
-        <translation>Bez aizpildījuma</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Default</source>
@@ -1956,63 +1960,63 @@
     </message>
     <message>
         <source>Box object properties</source>
-        <translation>Kastes objekta īpašības</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>line/fill</source>
-        <translation>līnija/aizpildīt</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>position/size</source>
-        <translation>pozīcija/izmērs</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>shadow</source>
-        <translation>Ēna</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Ellipse object properties</source>
-        <translation>Elipses objekta īpašības</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Image object properties</source>
-        <translation>Attēla objekta īpašības</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>image</source>
-        <translation>Attēls</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Line object properties</source>
-        <translation>Līnijas objekta īpašības</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Text object properties</source>
-        <translation>Teksta objekta īpašības</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>text</source>
-        <translation>teksts</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Barcode object properties</source>
-        <translation>Svītrkoda objekta īpašības</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>barcode</source>
-        <translation>Svītrkods</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Object properties</source>
-        <translation>Objekta īpašības</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Line</source>
-        <translation>Līnija</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Fill</source>
-        <translation>Aizpildīt</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Image files (*.png *.jpg *.jpeg *.gif *.bmp *.pbm *.pgm *.ppm *.xbm *.xpm *.svg)</source>
@@ -2024,43 +2028,43 @@
     </message>
     <message>
         <source>PNG - Portable Network Graphics (*.png)</source>
-        <translation>PNG - Portable Network Graphics (*.png)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>BMP - Windows Bitmap (*.bmp)</source>
-        <translation>BMP - Windows Bitmap (*.bmp)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>GIF - Graphics Interchange Format (*.gif)</source>
-        <translation>GIF - Graphics Interchange Format (*.gif)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>JPEG - Joint Photographic Experts Group (*.jpg *.jpeg)</source>
-        <translation>JPEG - Joint Photographic Experts Group (*.jpg *.jpeg)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>PBM - Portable Bitmap (*.pbm)</source>
-        <translation>PBM - Portable Bitmap (*.pbm)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>PGM - Portable Graymap (*.pgm)</source>
-        <translation>PGM - Portable Graymap (*.pgm)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>PPM - Portable Pixmap (*.ppm)</source>
-        <translation>PPM - Portable Pixmap (*.ppm)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>SVG - Scalable Vector Graphics (*.svg)</source>
-        <translation>SVG - Scalable Vector Graphics (*.svg)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>XBM - X11 Bitmap (*.xbm)</source>
-        <translation>XBM - X11 Bitmap (*.xbm)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>XPM - X11 Pixmap (*.xpm)</source>
-        <translation>XPM - X11 Pixmap (*.xpm)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>gLabels - Select image file</source>
@@ -2068,27 +2072,27 @@
     </message>
     <message>
         <source>Set image</source>
-        <translation>Iestatīt attēlu</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Size</source>
-        <translation>Izmērs</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Text</source>
-        <translation>Teksts</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Shadow</source>
-        <translation>Ēna</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Position</source>
-        <translation>Pozīcija</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Barcode</source>
-        <translation>Svītrkods</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Reset</source>
@@ -2107,7 +2111,7 @@
     <name>glabels::PrintView</name>
     <message>
         <source>Print</source>
-        <translation>Drukāt</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>(Will print a total of %1 items on %2 pages.)</source>
@@ -2142,7 +2146,7 @@
     <name>glabels::PropertiesView</name>
     <message>
         <source>Properties</source>
-        <translation>Īpašības</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Product Rotate</source>
@@ -2187,7 +2191,7 @@
     <name>glabels::SimplePreview</name>
     <message>
         <source>Up</source>
-        <translation>Augšup</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2202,7 +2206,7 @@
     </message>
     <message>
         <source>Copy</source>
-        <translation>Kopēt</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2262,7 +2266,7 @@
     <name>glabels::TemplateDesignerIntroPage</name>
     <message>
         <source>Welcome</source>
-        <translation>Laipni lūdzam</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Welcome to the gLabels Product Template Designer.</source>
@@ -2273,7 +2277,7 @@
     <name>glabels::TemplateDesignerNLayoutsPage</name>
     <message>
         <source>Number of Layouts</source>
-        <translation>Izkārtojumu skaits</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Please select the number of layouts required.</source>
@@ -2284,7 +2288,7 @@
     <name>glabels::TemplateDesignerNamePage</name>
     <message>
         <source>Name and Description</source>
-        <translation>Nosaukums un apraksts</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Please enter the following identifying information about the product.</source>
@@ -2299,7 +2303,7 @@
     <name>glabels::TemplateDesignerOneLayoutPage</name>
     <message>
         <source>Layout</source>
-        <translation>Izkārtojums</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Please enter parameters for your single layout.</source>
@@ -2310,7 +2314,7 @@
     <name>glabels::TemplateDesignerPageSizePage</name>
     <message>
         <source>Page Size</source>
-        <translation>Lappuses izmērs</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Please select the product page size.</source>
@@ -2318,7 +2322,7 @@
     </message>
     <message>
         <source>Other</source>
-        <translation>Cits</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Roll</source>
@@ -2373,7 +2377,7 @@
     <name>glabels::TemplateDesignerTwoLayoutPage</name>
     <message>
         <source>Layouts</source>
-        <translation>Izkārtojumi</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Please enter parameters for your two layouts.</source>
@@ -2384,15 +2388,15 @@
     <name>glabels::VariablesView</name>
     <message>
         <source>Variables</source>
-        <translation>Mainīgie lielumi</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Name</source>
-        <translation>Vārds</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Type</source>
-        <translation>Tips</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Increment</source>
@@ -2412,46 +2416,46 @@
     </message>
     <message>
         <source>Value</source>
-        <translation>Vērtība</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>glabels::barcode::Backends</name>
     <message>
         <source>Code 39</source>
-        <translation>Kods 39</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Code 39 Extended</source>
-        <translation>Kods 39 paplašināts</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>UPC-A</source>
-        <translation>UPC-A</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>EAN-13</source>
-        <translation>EAN-13</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>POSTNET (any)</source>
-        <translation>POSTNET (jebkurš)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>POSTNET-5 (ZIP only)</source>
-        <translation>POSTNET-5 (tikai ZIP)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>POSTNET-9 (ZIP+4)</source>
-        <translation>POSTNET-9 (ZIP+4)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>POSTNET-11 (DPBC)</source>
-        <translation>POSTNET-11 (DPBC)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>CEPNET</source>
-        <translation>CEPNET</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>USPS Intelligent Mail</source>
@@ -2459,267 +2463,267 @@
     </message>
     <message>
         <source>IEC16022 (DataMatrix)</source>
-        <translation>IEC16022 (datu matrica)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>EAN (any)</source>
-        <translation>EAN (jebkurš)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>EAN-8</source>
-        <translation>EAN-8</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>EAN-8+2</source>
-        <translation>EAN-8+2</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>EAN-8+5</source>
-        <translation>EAN-8+5</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>EAN-13+2</source>
-        <translation>EAN-13+2</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>EAN-13+5</source>
-        <translation>EAN-13+5</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>UPC (UPC-A or UPC-E)</source>
-        <translation>UPC (UPC-A vai UPC-E)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>UPC-A +2</source>
-        <translation>UPC-A +2</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>UPC-A +5</source>
-        <translation>UPC-A +5</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>UPC-E</source>
-        <translation>UPC-E</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>UPC-E +2</source>
-        <translation>UPC-E +2</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>UPC-E +5</source>
-        <translation>UPC-E +5</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>ISBN</source>
-        <translation>ISBN</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>ISBN +5</source>
-        <translation>ISBN +5</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Code 128</source>
-        <translation>Kods 128</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Code 128C</source>
-        <translation>Kods 128C</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Code 128B</source>
-        <translation>Kods 128B</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Interleaved 2 of 5</source>
-        <translation>Starplikām 2 no 5</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Codabar</source>
-        <translation>Svītrkods</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>MSI</source>
-        <translation>MSI</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Plessey</source>
-        <translation>Plessey</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Code 93</source>
-        <translation>Kods 93</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>IEC18004 (QRCode)</source>
-        <translation>IEC18004 (QR kods)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Australia Post Standard</source>
-        <translation>Austrālijas pasta standarts</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Australia Post Reply Paid</source>
-        <translation>Austrālijas pasts, atbilde apmaksāta</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Australia Post Route Code</source>
-        <translation>Austrālijas pasts, maršruta kods</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Australia Post Redirect</source>
-        <translation>Austrālijas pasts, pārsūtīts</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Aztec Code</source>
-        <translation>Acteku kods</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Code One</source>
-        <translation>Kods viens</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Code 11</source>
-        <translation>Kods 11</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Code 16K</source>
-        <translation>Kods 16K</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Code 2 of 5 IATA</source>
-        <translation>Kods 2 no 5 IATA</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Code 2 of 5 Data Logic</source>
-        <translation>Kods 2 no 5 datu loģika</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Code 32 (Italian Pharmacode)</source>
-        <translation>Kods 32 (itāļu pharma kods)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Code 49</source>
-        <translation>Kods 49</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Code 128 (Mode C suppression)</source>
-        <translation>Kods 128 (režīma C nomākšana)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>DAFT Code</source>
-        <translation>DAFT kods</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Data Matrix</source>
-        <translation>Datu matrica</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Deutsche Post Leitcode</source>
-        <translation>Vācu pasta maršruta kods</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Deutsche Post Identcode</source>
-        <translation>Vācu pasta identitātes kods</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Dutch Post KIX Code</source>
-        <translation>Holandiešu pasta KIX kods</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>EAN</source>
-        <translation>EAN</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Grid Matrix</source>
-        <translation>Režģa matrica</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>GS1-128</source>
-        <translation>GS1-128</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>HIBC Code 128</source>
-        <translation>HIBC kods 128</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>HIBC Code 39</source>
-        <translation>HIBC kods 39</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>HIBC Data Matrix</source>
-        <translation>HIBC datu matrica</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>HIBC QR Code</source>
-        <translation>HIBC QR kods</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>HIBC PDF417</source>
-        <translation>HIBC PDF417</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>HIBC Aztec Code</source>
-        <translation>HIBC acteku kods</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>ITF-14</source>
-        <translation>ITF-14</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Japanese Postal</source>
-        <translation>Japāņu pasta</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Korean Postal</source>
-        <translation>Korejiešu pasta</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>LOGMARS</source>
-        <translation>LOGMARS</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Maxicode</source>
-        <translation>Maxicode</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Micro QR Code</source>
-        <translation>Mikro QR kods</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>MSI Plessey</source>
-        <translation>MSI Plessey</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>PDF417</source>
-        <translation>PDF417</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>PLANET</source>
-        <translation>PLANET</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Pharmacode</source>
-        <translation>Pharma kods</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Pharmacode 2-track</source>
-        <translation>Pharma kods 2 celiņu</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>QR Code</source>
-        <translation>QR kods</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Telepen</source>
-        <translation>Telepen</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Telepen Numeric</source>
-        <translation>Telepen ciparu</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>UK Plessey</source>
-        <translation>UK Plessey</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Aztec Runes</source>
@@ -2731,7 +2735,7 @@
     </message>
     <message>
         <source>Codablock-F</source>
-        <translation>Codablock-F</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Code 2 of 5 Standard</source>
@@ -2739,39 +2743,39 @@
     </message>
     <message>
         <source>GS1 DataBar Stacked</source>
-        <translation>GS1 DataBar Stacked</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>GS1 DataBar Stacked Omni.</source>
-        <translation>GS1 DataBar Stacked Omni.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>GS1 DataBar Expanded Stacked</source>
-        <translation>GS1 DataBar Expanded Stacked</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>HIBC MicroPDF417</source>
-        <translation>HIBC MicroPDF417</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>MicroPDF417</source>
-        <translation>MicroPDF417</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>NVE-18 (SSCC-18)</source>
-        <translation>NVE-18 (SSCC-18)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>PDF417 Compact</source>
-        <translation>PDF417 Compact</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Pharmazentralnummer (PZN)</source>
-        <translation>Pharmazentralnummer (PZN)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Channel Code</source>
-        <translation>Channel Code</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Code 2 of 5 Industrial</source>
@@ -2779,11 +2783,11 @@
     </message>
     <message>
         <source>DotCode</source>
-        <translation>DotCode</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>EAN-14</source>
-        <translation>EAN-14</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>GS1 DataBar Omnidirectional</source>
@@ -2791,19 +2795,19 @@
     </message>
     <message>
         <source>Han Xin</source>
-        <translation>Han Xin</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Flattermarken</source>
-        <translation>Flattermarken</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>DPD Code</source>
-        <translation>DPD Code</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>POSTNET</source>
-        <translation>POSTNET</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Royal Mail 4-State Mailmark</source>
@@ -2811,7 +2815,7 @@
     </message>
     <message>
         <source>UPU S10</source>
-        <translation>UPU S10</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>FIM (Facing ID Mark)</source>
@@ -2831,22 +2835,22 @@
     </message>
     <message>
         <source>HIBC Codablock-F</source>
-        <translation>HIBC Codablock-F</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Royal Mail 2-D Mailmark</source>
-        <translation>Royal Mail 2-D Mailmark</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>BC412 (SEMI TI-95)</source>
-        <translation>BC412 (SEMI TI-95)</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>glabels::model::Model</name>
     <message>
         <source>Untitled</source>
-        <translation>Nenosaukts</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2857,7 +2861,7 @@
     </message>
     <message>
         <source>Invalid barcode data</source>
-        <translation>Nederīgi svītrkoda dati</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2871,7 +2875,7 @@
     <name>glabels::model::ModelTextObject</name>
     <message>
         <source>Text</source>
-        <translation>Teksts</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2882,6 +2886,10 @@
     </message>
     <message>
         <source>gLabels project files to open, optionally.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>More detailed version information.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
