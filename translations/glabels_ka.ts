@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="el">
+<TS version="2.1" language="ka">
 <context>
     <name>AboutDialog</name>
     <message>
         <source>About gLabels</source>
-        <translation>Σχετικά με το gLabels</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>&amp;License</source>
-        <translation>Ά&amp;δεια</translation>
+        <translation>&amp;ლიცენზია</translation>
     </message>
     <message>
         <source>&amp;Website</source>
-        <translation>&amp;Ιστότοπος</translation>
+        <translation>&amp;ვებგვერდი</translation>
     </message>
     <message>
         <source>&amp;Close</source>
-        <translation>&amp;Κλείσιμο</translation>
+        <translation>&amp;დახურვა</translation>
     </message>
 </context>
 <context>
@@ -28,7 +28,7 @@
     </message>
     <message>
         <source>Light Orange</source>
-        <translation type="unfinished"></translation>
+        <translation>ღია ნარინჯისფერი</translation>
     </message>
     <message>
         <source>Light Butter</source>
@@ -64,15 +64,15 @@
     </message>
     <message>
         <source>Orange</source>
-        <translation>Πορτοκαλί</translation>
+        <translation>ნარინჯისფერი</translation>
     </message>
     <message>
         <source>Butter</source>
-        <translation type="unfinished"></translation>
+        <translation>კარაქი</translation>
     </message>
     <message>
         <source>Chameleon</source>
-        <translation type="unfinished"></translation>
+        <translation>ქამელეობი</translation>
     </message>
     <message>
         <source>Sky Blue</source>
@@ -80,11 +80,11 @@
     </message>
     <message>
         <source>Plum</source>
-        <translation type="unfinished"></translation>
+        <translation>ქლიავი</translation>
     </message>
     <message>
         <source>Chocolate</source>
-        <translation type="unfinished"></translation>
+        <translation>შოკოლადი</translation>
     </message>
     <message>
         <source>Aluminum 1</source>
@@ -100,7 +100,7 @@
     </message>
     <message>
         <source>Dark Orange</source>
-        <translation>Σκούρο πορτοκαλί</translation>
+        <translation>მუქი ნარინჯისფერი</translation>
     </message>
     <message>
         <source>Dark Butter</source>
@@ -132,7 +132,7 @@
     </message>
     <message>
         <source>Black</source>
-        <translation>Μαύρο</translation>
+        <translation>შავი</translation>
     </message>
     <message>
         <source>Very Dark Gray</source>
@@ -144,7 +144,7 @@
     </message>
     <message>
         <source>Dark Gray</source>
-        <translation type="unfinished"></translation>
+        <translation>მუქი ნაცრისფერი</translation>
     </message>
     <message>
         <source>Medium Gray</source>
@@ -152,7 +152,7 @@
     </message>
     <message>
         <source>Light Gray</source>
-        <translation type="unfinished"></translation>
+        <translation>ღია ნაცრისფერი</translation>
     </message>
     <message>
         <source>Lighter Gray</source>
@@ -164,49 +164,49 @@
     </message>
     <message>
         <source>White</source>
-        <translation>Άσπρο</translation>
+        <translation>თეთრი</translation>
     </message>
 </context>
 <context>
     <name>EditVariableDialog</name>
     <message>
         <source>Dialog</source>
-        <translation type="unfinished"></translation>
+        <translation>დიალოგი</translation>
     </message>
     <message>
         <source>Name:</source>
-        <translation>Όνομα:</translation>
+        <translation>სახელი:</translation>
     </message>
     <message>
         <source>Step size:</source>
-        <translation type="unfinished"></translation>
+        <translation>ბიჯის ზომა:</translation>
     </message>
     <message>
         <source>Increment</source>
-        <translation type="unfinished"></translation>
+        <translation>გაზრდა</translation>
     </message>
     <message>
         <source>Variable</source>
-        <translation>Μεταβλητό</translation>
+        <translation>ცვლადი</translation>
     </message>
     <message>
         <source>Type:</source>
-        <translation>Τύπος:</translation>
+        <translation>ტიპი:</translation>
     </message>
     <message>
         <source>Value:</source>
-        <translation>Τιμή:</translation>
+        <translation>მნიშვნელობა:</translation>
     </message>
 </context>
 <context>
     <name>Factory</name>
     <message>
         <source>None</source>
-        <translation type="unfinished"></translation>
+        <translation>არცერთი</translation>
     </message>
     <message>
         <source>Text: Comma Separated Values (CSV)</source>
-        <translation>Κείμενο: Διαχωρισμένο με κόμμα (CSV)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Text: Comma Separated Values (CSV), keys on line 1</source>
@@ -214,7 +214,7 @@
     </message>
     <message>
         <source>Text: Tab Separated Values (TSV)</source>
-        <translation>Κείμενο: Τιμές χωρισμένες με στηλοθέτη (TSV)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Text: Tab Separated Values (TSV), keys on line 1</source>
@@ -242,87 +242,118 @@
     <message>
         <source>%1 x %2 (%3 per sheet)</source>
         <extracomment>%1 = number of labels across a page, %2 = number of labels down a page, %3 = total number of labels on a page (sheet).</extracomment>
-        <translation>%1 x %2 (%3 ανά φύλλο)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>%1 per sheet</source>
         <extracomment>%1 is the total number of labels on a page (sheet).</extracomment>
-        <translation>%1 ανά φύλλο</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>FrameCd</name>
     <message>
         <source>diameter</source>
-        <translation>διάμετρος</translation>
+        <translation>დიამეტრი</translation>
     </message>
 </context>
 <context>
     <name>FrameContinuous</name>
     <message>
         <source>wide</source>
-        <translation type="unfinished"></translation>
+        <translation>ფართო</translation>
     </message>
 </context>
 <context>
     <name>FrameRound</name>
     <message>
         <source>diameter</source>
-        <translation>διάμετρος</translation>
+        <translation>დიამეტრი</translation>
+    </message>
+</context>
+<context>
+    <name>GenericTemplate</name>
+    <message>
+        <source>Generic</source>
+        <translation>ზოგადი</translation>
+    </message>
+    <message>
+        <source>%1 full-page labels</source>
+        <extracomment>%1 = page size. (e.g. A4)</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%1 envelope</source>
+        <extracomment>%1 = envelope size. (e.g. DL)</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%1 half-page labels</source>
+        <extracomment>%1 = page size. (e.g. A4)</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%1 quarter-page labels</source>
+        <extracomment>%1 = page size. (e.g. A4)</extracomment>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>MergeView</name>
     <message>
         <source>Source</source>
-        <translation>Πηγή</translation>
+        <translation>წყარო</translation>
     </message>
     <message>
         <source>Format:</source>
-        <translation>Μορφοποίηση:</translation>
+        <translation>ფორმატი:</translation>
     </message>
     <message>
         <source>Location:</source>
-        <translation>Τοποθεσία:</translation>
+        <translation>მდებარეობა:</translation>
     </message>
     <message>
         <source>Records</source>
-        <translation type="unfinished"></translation>
+        <translation>ჩანაწერები</translation>
     </message>
     <message>
         <source>Select all</source>
-        <translation>Επιλογή όλων</translation>
+        <translation>ყველას მონიშვნა</translation>
     </message>
     <message>
         <source>Unselect all</source>
-        <translation>Αποεπιλογή όλων</translation>
+        <translation>მონიშვნის ყველაფერზე მოხსნა</translation>
     </message>
     <message>
         <source>Browse...</source>
-        <translation>Περιήγηση...</translation>
+        <translation>პოვნა...</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>თავიდან ჩატვირთვა</translation>
     </message>
 </context>
 <context>
     <name>ObjectEditor</name>
     <message>
         <source>Object properties</source>
-        <translation>Ιδιότητες αντικειμένου</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Text</source>
-        <translation type="unfinished"></translation>
+        <translation>ტექსტი</translation>
     </message>
     <message>
         <source>Layout</source>
-        <translation type="unfinished"></translation>
+        <translation>განლაგება</translation>
     </message>
     <message>
         <source>Alignment:</source>
-        <translation>Στοίχιση:</translation>
+        <translation>სწორება:</translation>
     </message>
     <message>
         <source>Line spacing:</source>
-        <translation type="unfinished"></translation>
+        <translation>ხაზებს შუა მანძილი:</translation>
     </message>
     <message>
         <source>Wrap mode:</source>
@@ -330,15 +361,15 @@
     </message>
     <message>
         <source>Word</source>
-        <translation type="unfinished"></translation>
+        <translation>სიტყვა</translation>
     </message>
     <message>
         <source>Anywhere</source>
-        <translation type="unfinished"></translation>
+        <translation>ყველგან</translation>
     </message>
     <message>
         <source>None</source>
-        <translation>Καμία</translation>
+        <translation>არცერთი</translation>
     </message>
     <message>
         <source>Allow printing to shrink text to fit object</source>
@@ -346,87 +377,87 @@
     </message>
     <message>
         <source>Font</source>
-        <translation>Γραμματοσειρά</translation>
+        <translation>ფონტი</translation>
     </message>
     <message>
         <source>Family:</source>
-        <translation>Οικογένεια:</translation>
+        <translation>ოჯახი:</translation>
     </message>
     <message>
         <source>Size:</source>
-        <translation>Μέγεθος:</translation>
+        <translation>ზომა:</translation>
     </message>
     <message>
         <source>Style:</source>
-        <translation>Στυλ:</translation>
+        <translation>სტილი:</translation>
     </message>
     <message>
         <source>Color:</source>
-        <translation>Χρώμα:</translation>
+        <translation>ფერი:</translation>
     </message>
     <message>
         <source>Editor</source>
-        <translation type="unfinished"></translation>
+        <translation>რედაქტორი</translation>
     </message>
     <message>
         <source>Barcode</source>
-        <translation>Barcode</translation>
+        <translation>ბარკოდი</translation>
     </message>
     <message>
         <source>Style</source>
-        <translation>Στυλ</translation>
+        <translation>სტილი</translation>
     </message>
     <message>
         <source>Type:</source>
-        <translation>Τύπος:</translation>
+        <translation>ტიპი:</translation>
     </message>
     <message>
         <source>Show text</source>
-        <translation>Εμφάνιση κειμένου</translation>
+        <translation>ტექსტის ჩვენება</translation>
     </message>
     <message>
         <source>Checksum</source>
-        <translation>Άθροισμα ελέγχου</translation>
+        <translation>საკონტროლო ჯამი</translation>
     </message>
     <message>
         <source>Barcode data</source>
-        <translation>Δεδομένα barcode</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Image</source>
-        <translation>Εικόνα</translation>
+        <translation>გამოსახულება</translation>
     </message>
     <message>
         <source>File</source>
-        <translation>Αρχείο</translation>
+        <translation>ფაილი</translation>
     </message>
     <message>
         <source>Browse...</source>
-        <translation>Περιήγηση...</translation>
+        <translation>პოვნა...</translation>
     </message>
     <message>
         <source>Line/Fill</source>
-        <translation>Γραμμή/Γέμισμα</translation>
+        <translation>ხაზი/შევსება</translation>
     </message>
     <message>
         <source>Line</source>
-        <translation>Γραμμή</translation>
+        <translation>ხაზი</translation>
     </message>
     <message>
         <source>Width:</source>
-        <translation>Πλάτος:</translation>
+        <translation>სიგანე:</translation>
     </message>
     <message>
         <source>Fill</source>
-        <translation>Γέμισμα</translation>
+        <translation>შევსება</translation>
     </message>
     <message>
         <source>Position/Size</source>
-        <translation>Θέση/Μέγεθος</translation>
+        <translation>მდებარეობა/ზომა</translation>
     </message>
     <message>
         <source>Position</source>
-        <translation>Θέση</translation>
+        <translation>პოზიცია</translation>
     </message>
     <message>
         <source>X:</source>
@@ -438,90 +469,90 @@
     </message>
     <message>
         <source>Size</source>
-        <translation>Μέγεθος</translation>
+        <translation>ზომა</translation>
     </message>
     <message>
         <source>Length:</source>
-        <translation>Μήκος:</translation>
+        <translation>ხანგრძლივობა:</translation>
     </message>
     <message>
         <source>Angle:</source>
-        <translation>Γωνία:</translation>
+        <translation>კუთხე:</translation>
     </message>
     <message>
         <source>Original size:</source>
-        <translation>Αρχικό μέγεθος:</translation>
-    </message>
-    <message>
-        <source>Reset</source>
-        <translation>Επαναφορά</translation>
-    </message>
-    <message>
-        <source>Lock aspect ratio</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <source>Reset</source>
+        <translation>ჩამოყრა</translation>
+    </message>
+    <message>
+        <source>Lock aspect ratio</source>
+        <translation>გადიდების კოეფიციენტის დაბლოკვა</translation>
+    </message>
+    <message>
         <source>Height:</source>
-        <translation>Ύψος:</translation>
+        <translation>სიმაღლე:</translation>
     </message>
     <message>
         <source>Shadow</source>
-        <translation>Σκιά</translation>
+        <translation>ჩრდილი</translation>
     </message>
     <message>
         <source>X offset:</source>
-        <translation>Αντιστάθμιση X:</translation>
+        <translation>X წანაცვლება:</translation>
     </message>
     <message>
         <source>Y offset:</source>
-        <translation>Αντιστάθμιση Y:</translation>
+        <translation>Y წანაცვლება:</translation>
     </message>
     <message>
         <source>Opacity:</source>
-        <translation>Διαφάνεια:</translation>
+        <translation>გაუმჭირვალობა:</translation>
     </message>
 </context>
 <context>
     <name>PreferencesDialog</name>
     <message>
         <source>gLabels - Preferences</source>
-        <translation>gLabels - Προτιμήσεις</translation>
-    </message>
-    <message>
-        <source>Locale</source>
-        <translation>Γλώσσα</translation>
-    </message>
-    <message>
-        <source>Select locale specific behavior.</source>
-        <translation>Επιλογή τοπικής ειδικής συμπεριφοράς.</translation>
-    </message>
-    <message>
-        <source>Units</source>
-        <translation>Μονάδες</translation>
-    </message>
-    <message>
-        <source>Points</source>
-        <translation>Πόντοι</translation>
-    </message>
-    <message>
-        <source>Centimeters</source>
-        <translation>Εκατοστά</translation>
-    </message>
-    <message>
-        <source>Millimeters</source>
-        <translation>Χιλιοστά</translation>
-    </message>
-    <message>
-        <source>Inches</source>
-        <translation>Ίντσες</translation>
-    </message>
-    <message>
-        <source>Picas</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <source>Locale</source>
+        <translation>ენა</translation>
+    </message>
+    <message>
+        <source>Select locale specific behavior.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Units</source>
+        <translation>საზომი ერთეულები</translation>
+    </message>
+    <message>
+        <source>Points</source>
+        <translation>ქულები</translation>
+    </message>
+    <message>
+        <source>Centimeters</source>
+        <translation>სანტიმეტრი</translation>
+    </message>
+    <message>
+        <source>Millimeters</source>
+        <translation>მილიმეტრი</translation>
+    </message>
+    <message>
+        <source>Inches</source>
+        <translation>დუიმი</translation>
+    </message>
+    <message>
+        <source>Picas</source>
+        <translation>Picas</translation>
+    </message>
+    <message>
         <source>Grid</source>
-        <translation>Πλέγμα</translation>
+        <translation>ბადე</translation>
     </message>
     <message>
         <source>Configure grid behavior.</source>
@@ -529,74 +560,74 @@
     </message>
     <message>
         <source>Origin</source>
-        <translation type="unfinished"></translation>
+        <translation>საწყისი</translation>
     </message>
     <message>
         <source>Center</source>
-        <translation>Κέντρο</translation>
+        <translation>ცენტრი</translation>
     </message>
     <message>
         <source>Spacing</source>
-        <translation type="unfinished"></translation>
+        <translation>გამოტოვება</translation>
     </message>
     <message>
         <source>Top left corner</source>
-        <translation type="unfinished"></translation>
+        <translation>ქვედა მარცხენა კუთხე</translation>
     </message>
     <message>
         <source>Reset</source>
-        <translation type="unfinished"></translation>
+        <translation>ჩამოყრა</translation>
     </message>
 </context>
 <context>
     <name>PrintView</name>
     <message>
         <source>Copies:</source>
-        <translation>Αντίγραφα:</translation>
+        <translation>ასლები:</translation>
     </message>
     <message>
         <source>print outlines</source>
-        <translation>εκτύπωση περιγραμμάτων</translation>
-    </message>
-    <message>
-        <source>print crop marks</source>
-        <translation>εκτύπωση σημείων περικοπής</translation>
-    </message>
-    <message>
-        <source>print in reverse (i.e. a mirror image)</source>
-        <translation>αντίστροφη εκτύπωση (δηλαδή κατοπτρική εικόνα)</translation>
-    </message>
-    <message>
-        <source>Page</source>
-        <translation>Σελίδα</translation>
-    </message>
-    <message>
-        <source>of</source>
-        <translation>από</translation>
-    </message>
-    <message>
-        <source>nn</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <source>print crop marks</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>print in reverse (i.e. a mirror image)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Page</source>
+        <translation>გვერდი</translation>
+    </message>
+    <message>
+        <source>of</source>
+        <translation>-დან</translation>
+    </message>
+    <message>
+        <source>nn</source>
+        <translation>nn</translation>
+    </message>
+    <message>
         <source>Pages</source>
-        <translation>Σελίδες</translation>
+        <translation>გვერდები</translation>
     </message>
     <message>
         <source>Options</source>
-        <translation>Επιλογές</translation>
+        <translation>მორგება</translation>
     </message>
     <message>
         <source>Print range</source>
-        <translation>Εύρος εκτύπωσης</translation>
+        <translation>ბეჭდვის შუალედი</translation>
     </message>
     <message>
         <source>Positions</source>
-        <translation>Θέσεις</translation>
+        <translation>მდებარეობები</translation>
     </message>
     <message>
         <source>to</source>
-        <translation>έως</translation>
+        <translation>სადამდე</translation>
     </message>
     <message>
         <source>Merge control</source>
@@ -624,11 +655,11 @@
     </message>
     <message>
         <source>Destination</source>
-        <translation type="unfinished"></translation>
+        <translation>სამიზნე</translation>
     </message>
     <message>
         <source>Print</source>
-        <translation>Εκτύπωση</translation>
+        <translation>ბეჭდვა</translation>
     </message>
     <message>
         <source>Use system print dialog...</source>
@@ -639,82 +670,82 @@
     <name>PropertiesView</name>
     <message>
         <source>Product</source>
-        <translation>Προϊόν</translation>
+        <translation>პროდუქტი</translation>
     </message>
     <message>
         <source>Vendor:</source>
-        <translation>Κατασκευαστής:</translation>
+        <translation>მომწოდებელი:</translation>
     </message>
     <message>
         <source>TextLabel</source>
-        <translation>TextLabel</translation>
+        <translation>ტექსტური ჭდე</translation>
     </message>
     <message>
         <source>Part #:</source>
-        <translation>Μέρος #:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Description:</source>
-        <translation>Περιγραφή:</translation>
+        <translation>აღწერა:</translation>
     </message>
     <message>
         <source>Page size:</source>
-        <translation>Μέγεθος σελίδας:</translation>
+        <translation>გვერდის ზომა:</translation>
     </message>
     <message>
         <source>Label size:</source>
-        <translation>Μέγεθος ετικέτας:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Layout:</source>
-        <translation>Διάταξη:</translation>
+        <translation>განლაგება:</translation>
     </message>
     <message>
         <source>Change product</source>
-        <translation>Αλλαγή προϊόντος</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Adjustable Parameters</source>
-        <translation>Προσαρμόσιμες παράμετροι</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Label length:</source>
-        <translation>Μήκος ετικέτας:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Orientation</source>
-        <translation>Προσανατολισμός</translation>
+        <translation>ორიენტაცია</translation>
     </message>
     <message>
         <source>Select horizontal or vertical orientation.</source>
-        <translation>Επιλέξτε οριζόντιο ή κατακόρυφο προσανατολισμό.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Horizontal orientation</source>
-        <translation>Οριζόντιος προσανατολισμός</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Vertical orientation</source>
-        <translation>Κατακόρυφος προσανατολισμός</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Similar Products</source>
-        <translation>Παρόμοια προϊόντα</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Select another product for this gLabels project.</source>
-        <translation>Επιλέξτε ένα άλλο προϊόν για αυτό το έργο gLabels.</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>ReportBugDialog</name>
     <message>
         <source>gLabels - Report a Bug</source>
-        <translation>gLabels - Αναφορά σφάλματος</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Copy</source>
-        <translation>Αντιγραφή</translation>
+        <translation>კოპირება</translation>
     </message>
     <message>
         <source>Ctrl+C</source>
@@ -729,43 +760,43 @@
     <name>SelectProductDialog</name>
     <message>
         <source>gLabels - Select Product</source>
-        <translation>gLabels - Επιλογή προϊόντος</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Search all</source>
-        <translation>Αναζήτηση όλων</translation>
+        <translation>ყველას ძებნა</translation>
     </message>
     <message>
         <source>Search</source>
-        <translation>Αναζήτηση</translation>
+        <translation>ძებნა</translation>
     </message>
     <message>
         <source>Filter by paper size</source>
-        <translation>Φιλτράρισμα κατά μέγεθος χαρτιού</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>ISO sizes</source>
-        <translation>Μεγέθη ISO</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>US sizes</source>
-        <translation>Μεγέθη US</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Other</source>
-        <translation>Άλλο</translation>
+        <translation>სხვა</translation>
     </message>
     <message>
         <source>Filter by category</source>
-        <translation>Φιλτράρισμα κατά κατηγορία</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>All</source>
-        <translation>Όλα</translation>
+        <translation>ყველა</translation>
     </message>
     <message>
         <source>Selected</source>
-        <translation type="unfinished"></translation>
+        <translation>მონიშნული</translation>
     </message>
     <message>
         <source>Search entire product database.</source>
@@ -773,51 +804,51 @@
     </message>
     <message>
         <source>Recent</source>
-        <translation>Πρόσφατα</translation>
+        <translation>უახლესი</translation>
     </message>
     <message>
         <source>Select from recently used products.</source>
-        <translation>Επιλέξτε από τα πρόσφατα χρησιμοποιημένα προϊόντα.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>&amp;Cancel</source>
-        <translation>&amp;Ακύρωση</translation>
+        <translation>&amp;გაუქმება</translation>
     </message>
     <message>
         <source>Product information</source>
-        <translation>Πληροφορίες προϊόντος</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Vendor:</source>
-        <translation>Κατασκευαστής:</translation>
+        <translation>მომწოდებელი:</translation>
     </message>
     <message>
         <source>TextLabel</source>
-        <translation>TextLabel</translation>
+        <translation>ტექსტური ჭდე</translation>
     </message>
     <message>
         <source>Part #:</source>
-        <translation>Μέρος #:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Description:</source>
-        <translation>Περιγραφή:</translation>
+        <translation>აღწერა:</translation>
     </message>
     <message>
         <source>Page size:</source>
-        <translation>Μέγεθος σελίδας:</translation>
+        <translation>გვერდის ზომა:</translation>
     </message>
     <message>
         <source>Label size:</source>
-        <translation>Μέγεθος ετικέτας:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Layout:</source>
-        <translation>Διάταξη:</translation>
+        <translation>განლაგება:</translation>
     </message>
     <message>
         <source>Select</source>
-        <translation>Επιλογή</translation>
+        <translation>არჩევა</translation>
     </message>
 </context>
 <context>
@@ -828,27 +859,27 @@
     </message>
     <message>
         <source>Create a new blank gLabels project</source>
-        <translation>Δημιουργία νέου κενού έργου gLabels</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Open a recent gLabels project</source>
-        <translation>Άνοιγμα πρόσφατου έργου gLabels</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Recent</source>
-        <translation>Πρόσφατα</translation>
+        <translation>უახლესი</translation>
     </message>
     <message>
         <source>New...</source>
-        <translation>Νέο...</translation>
+        <translation>ახალი...</translation>
     </message>
     <message>
         <source>Browse...</source>
-        <translation>Περιήγηση...</translation>
+        <translation>პოვნა...</translation>
     </message>
     <message>
         <source>Open an existing gLabels project</source>
-        <translation>Άνοιγμα υπάρχοντος έργου gLabels</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -866,27 +897,27 @@
     <name>TemplateDesignerCdPage</name>
     <message>
         <source>6. Margin:</source>
-        <translation>6. Περιθώριο:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>1. Outer radius:</source>
-        <translation>1. Εξωτερική ακτίνα:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>4. Clipping height:</source>
-        <translation>4. Ύψος κοπής:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>2. Inner radius:</source>
-        <translation>2. Εσωτερική ακτίνα:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>3. Clipping width:</source>
-        <translation>3. Πλάτος κοπής:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>5. Waste:</source>
-        <translation>5. Απώλεια:</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -900,19 +931,19 @@
     <name>TemplateDesignerEllipsePage</name>
     <message>
         <source>2. Height:</source>
-        <translation>2. Ύψος:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>1. Width:</source>
-        <translation>1. Πλάτος:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>3. Waste:</source>
-        <translation>3. Απώλεια:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>4. Margin:</source>
-        <translation>4. Περιθώριο:</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -927,7 +958,7 @@
     </message>
     <message>
         <source>New Product</source>
-        <translation type="unfinished"></translation>
+        <translation>ახალი პროდუქტი</translation>
     </message>
     <message>
         <source>Create a new product template from scratch</source>
@@ -969,58 +1000,58 @@
     <name>TemplateDesignerNamePage</name>
     <message>
         <source>(e.g. &quot;Mailing Labels,&quot; &quot;Business Cards,&quot; ...)</source>
-        <translation>(πχ, &quot;Ετικέτες Αλληλογραφίας,&quot; &quot;Επαγγελματικές Κάρτες,&quot; …)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Brand:</source>
-        <translation>Μάρκα:</translation>
+        <translation>ბრენდი:</translation>
     </message>
     <message>
         <source>Part #:</source>
-        <translation>Είδος #:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Description:</source>
-        <translation>Περιγραφή:</translation>
+        <translation>აღწერა:</translation>
     </message>
     <message>
         <source>(e.g. 8163A)</source>
-        <translation>(πχ, 8163A)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>(e.g. Avery, Acme, ...)</source>
-        <translation>(πχ, Avery, Acme, …)</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>TemplateDesignerOneLayoutPage</name>
     <message>
         <source>Number across (nx):</source>
-        <translation>Αριθμός οριζόντιων κομματιών (nx):</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Number down (ny):</source>
-        <translation>Αριθμός κάθετων κομματιών (ny):</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Distance from left edge (x0):</source>
-        <translation>Απόσταση από την αριστερή άκρη (x0):</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Distance from top edge (y0):</source>
-        <translation>Απόσταση από την πάνω άκρη (y0):</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Horizontal pitch (dx):</source>
-        <translation>Οριζόντιο βήμα (dx):</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Vertical pitch (dy):</source>
-        <translation>Κάθετο βήμα (dy):</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Print test sheet</source>
-        <translation>Εκτύπωση δοκιμαστικού φύλλου</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1031,15 +1062,15 @@
     </message>
     <message>
         <source>Height:</source>
-        <translation>Ύψος:</translation>
+        <translation>სიმაღლე:</translation>
     </message>
     <message>
         <source>Width:</source>
-        <translation>Πλάτος:</translation>
+        <translation>სიგანე:</translation>
     </message>
     <message>
         <source>Page size:</source>
-        <translation>Μέγεθος σελίδας:</translation>
+        <translation>გვერდის ზომა:</translation>
     </message>
 </context>
 <context>
@@ -1053,142 +1084,142 @@
     <name>TemplateDesignerRectPage</name>
     <message>
         <source>4. Horizontal waste:</source>
-        <translation>4. Οριζόντια απώλεια:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>3. Corner radius</source>
-        <translation>3. Ακτίνα της γωνίας</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>1. Width:</source>
-        <translation>1. Πλάτος:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>5. Vertical waste:</source>
-        <translation>5. Κάθετη απώλεια:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>2. Height:</source>
-        <translation>2. Ύψος:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>6. Margin (X):</source>
-        <translation>6. Περιθώριο (X):</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>7. Margin (Y):</source>
-        <translation>7. Περιθώριο (Y):</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>in</source>
-        <translation type="unfinished"></translation>
+        <translation>დუიმი</translation>
     </message>
 </context>
 <context>
     <name>TemplateDesignerRoundPage</name>
     <message>
         <source>3. Margin</source>
-        <translation>3. Περιθώριο</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>1. Radius:</source>
-        <translation>1. Ακτίνα:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>2. Waste:</source>
-        <translation>2. Απώλεια:</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>TemplateDesignerShapePage</name>
     <message>
         <source>Rectangular or square (can have rounded corners)</source>
-        <translation>Ορθογώνιο ή τετράγωνο (μπορεί να έχει στρογγυλεμένες γωνίες)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Round</source>
-        <translation>Στρογγυλό</translation>
+        <translation>მრგვალი</translation>
     </message>
     <message>
         <source>Elliptical</source>
-        <translation>Έλλειψη</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>CD/DVD (including credit card CDs)</source>
-        <translation>CD/DVD (συμπεριλαμβανομένης CD μεγέθους πιστωτικής κάρτας)</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>TemplateDesignerTwoLayoutPage</name>
     <message>
         <source>Distance from left edge (x0):</source>
-        <translation>Απόσταση από την αριστερή άκρη (x0):</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Number down (ny):</source>
-        <translation>Αριθμός κάθετων κομματιών (ny):</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Distance from top edge (y0):</source>
-        <translation>Απόσταση από την πάνω άκρη (y0):</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Number across (nx):</source>
-        <translation>Αριθμός οριζόντιων κομματιών (nx):</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Horizontal pitch (dx):</source>
-        <translation>Οριζόντιο βήμα (dx):</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Vertical pitch (dy):</source>
-        <translation>Κάθετο βήμα (dy):</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Print test sheet</source>
-        <translation>Εκτύπωση δοκιμαστικού φύλλου</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>Units</name>
     <message>
         <source>points</source>
-        <translation>σημεία</translation>
+        <translation>წერტილი</translation>
     </message>
     <message>
         <source>inches</source>
-        <translation>ίντσες</translation>
+        <translation>დუიმი</translation>
     </message>
     <message>
         <source>mm</source>
-        <translation>mm</translation>
+        <translation>მმ</translation>
     </message>
     <message>
         <source>cm</source>
-        <translation>cm</translation>
+        <translation>სმ</translation>
     </message>
     <message>
         <source>picas</source>
-        <translation>picas</translation>
+        <translation>პიკა</translation>
     </message>
 </context>
 <context>
     <name>Variable</name>
     <message>
         <source>String</source>
-        <translation type="unfinished"></translation>
+        <translation>სტრიქონი</translation>
     </message>
     <message>
         <source>Integer</source>
-        <translation type="unfinished"></translation>
+        <translation>მთელი რიცხვი</translation>
     </message>
     <message>
         <source>Floating Point</source>
-        <translation type="unfinished"></translation>
+        <translation>მცურავმძიმიანი</translation>
     </message>
     <message>
         <source>Never</source>
-        <translation type="unfinished"></translation>
+        <translation>არასდროს</translation>
     </message>
     <message>
         <source>Per item</source>
@@ -1200,30 +1231,30 @@
     </message>
     <message>
         <source>Per page</source>
-        <translation type="unfinished"></translation>
+        <translation>გვერდზე</translation>
     </message>
     <message>
         <source>Color</source>
-        <translation>Χρώμα</translation>
+        <translation>ფერი</translation>
     </message>
 </context>
 <context>
     <name>VariablesView</name>
     <message>
         <source>Add</source>
-        <translation type="unfinished"></translation>
+        <translation>დამატება</translation>
     </message>
     <message>
         <source>Edit</source>
-        <translation>Επεξεργασία</translation>
+        <translation>ჩასწორება</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation>Διαγραφή</translation>
+        <translation>წაშლა</translation>
     </message>
     <message>
         <source>Add variable</source>
-        <translation type="unfinished"></translation>
+        <translation>ცვლადის დამატება</translation>
     </message>
     <message>
         <source>Edit selected variable</source>
@@ -1238,7 +1269,7 @@
     <name>glabels::AboutDialog</name>
     <message>
         <source>Version</source>
-        <translation type="unfinished"></translation>
+        <translation>ვერსია</translation>
     </message>
     <message>
         <source>A program to create labels and business cards.</source>
@@ -1246,18 +1277,18 @@
     </message>
     <message>
         <source>gLabels is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.</source>
-        <translation>Το gLabels είναι ελεύθερο λογισμικό: μπορείτε να το αναδιανείμετε και/ή να το τροποποιήσετε υπό τους όρους της γενικής δημόσιας άδειας GNU όπως δημοσιεύτηκε από το Free Software Foundation, ή στη έκδοση 3 της άδειας, ή (κατ&apos; επιλογή) σε οποιαδήποτε μετέπειτα έκδοση.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>gLabels is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.</source>
-        <translation>Το gLabels διανέμεται με την ελπίδα ότι θα είναι χρήσιμο, αλλά ΧΩΡΙΣ ΚΑΜΙΑ ΕΓΓΥΗΣΗ: χωρίς καν την εγγύηση ΕΜΠΟΡΕΥΣΙΜΟΤΗΤΑΣ ή ΚΑΤΑΛΛΗΛΟΤΗΤΑΣ ΓΙΑ ΣΥΓΚΕΚΡΙΜΕΝΟ ΣΚΟΠΟ. Δείτε τη γενική δημόσια άδεια GNU για περισσότερες λεπτομέρειες.</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>glabels::ColorHistory</name>
     <message>
         <source>color %1</source>
-        <translation>Χρώμα %1</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1268,20 +1299,20 @@
     </message>
     <message>
         <source>Recent Colors</source>
-        <translation type="unfinished"></translation>
+        <translation>უახლესი ფერები</translation>
     </message>
     <message>
         <source>Custom color...</source>
-        <translation>Προσαρμοσμένο χρώμα …</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Custom Color</source>
-        <translation>Προσαρμοσμένο χρώμα</translation>
+        <translation>ფერის არჩევა</translation>
     </message>
     <message>
         <source>Custom Color %1</source>
         <extracomment>%1 = color specification in hex. String must not contain a colon (:).</extracomment>
-        <translation>Προσαρμοσμένο χρώμα %1</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Use substitution field</source>
@@ -1292,7 +1323,7 @@
     <name>glabels::EditVariableDialog</name>
     <message>
         <source>Default</source>
-        <translation>Προεπιλογή</translation>
+        <translation>ნაგულისხმევი</translation>
     </message>
 </context>
 <context>
@@ -1303,7 +1334,7 @@
     </message>
     <message>
         <source>Variables</source>
-        <translation type="unfinished"></translation>
+        <translation>ცვლადები</translation>
     </message>
 </context>
 <context>
@@ -1345,50 +1376,50 @@
     <name>glabels::LabelEditor</name>
     <message>
         <source>Move</source>
-        <translation>Μετακίνηση</translation>
+        <translation>გადატანა</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation>Διαγραφή</translation>
+        <translation>წაშლა</translation>
     </message>
     <message>
         <source>Resize</source>
-        <translation>Αλλαγή μεγέθους</translation>
+        <translation>ზომის შეცვლა</translation>
     </message>
     <message>
         <source>Drop</source>
-        <translation type="unfinished"></translation>
+        <translation>გადაგდება</translation>
     </message>
 </context>
 <context>
     <name>glabels::MainWindow</name>
     <message>
         <source>Welcome</source>
-        <translation>Καλως ήλθατε</translation>
+        <translation>მოგესალმებით</translation>
     </message>
     <message>
         <source>Edit</source>
-        <translation>Επεξεργασία</translation>
+        <translation>ჩასწორება</translation>
     </message>
     <message>
         <source>Properties</source>
-        <translation>Ιδιότητες</translation>
+        <translation>თვისებები</translation>
     </message>
     <message>
         <source>Merge</source>
-        <translation type="unfinished"></translation>
+        <translation>შერწყმა</translation>
     </message>
     <message>
         <source>Variables</source>
-        <translation type="unfinished"></translation>
+        <translation>ცვლადები</translation>
     </message>
     <message>
         <source>Print</source>
-        <translation>Εκτύπωση</translation>
+        <translation>ბეჭდვა</translation>
     </message>
     <message>
         <source>&amp;New...</source>
-        <translation>&amp;Νέο …</translation>
+        <translation>&amp;ახალი...</translation>
     </message>
     <message>
         <source>Create a new gLabels project</source>
@@ -1396,7 +1427,7 @@
     </message>
     <message>
         <source>&amp;Open...</source>
-        <translation>&amp;Άνοιγμα …</translation>
+        <translation>&amp;გახსნა...</translation>
     </message>
     <message>
         <source>Open an existing gLabels project</source>
@@ -1404,7 +1435,7 @@
     </message>
     <message>
         <source>&amp;Save</source>
-        <translation>&amp;Αποθήκευση</translation>
+        <translation>&amp;შენახვა</translation>
     </message>
     <message>
         <source>Save current gLabels project</source>
@@ -1412,7 +1443,7 @@
     </message>
     <message>
         <source>Save &amp;As...</source>
-        <translation>Αποθήκευση &amp;ως …</translation>
+        <translation>შენახვ&amp;ა, როგორც...</translation>
     </message>
     <message>
         <source>Save current gLabels project to a different name</source>
@@ -1420,7 +1451,7 @@
     </message>
     <message>
         <source>&amp;Edit</source>
-        <translation>&amp;Επεξεργασία</translation>
+        <translation>ჩასწორ&amp;ება</translation>
     </message>
     <message>
         <source>Select project Edit mode</source>
@@ -1428,7 +1459,7 @@
     </message>
     <message>
         <source>P&amp;roperties</source>
-        <translation>Ι&amp;διότητες</translation>
+        <translation>თ&amp;ვისებები</translation>
     </message>
     <message>
         <source>Select project Properties mode</source>
@@ -1436,7 +1467,7 @@
     </message>
     <message>
         <source>&amp;Merge</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;შერწყმა</translation>
     </message>
     <message>
         <source>Select project Merge mode</source>
@@ -1444,7 +1475,7 @@
     </message>
     <message>
         <source>&amp;Variables</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;ცვლადები</translation>
     </message>
     <message>
         <source>Select project Variables mode</source>
@@ -1452,7 +1483,7 @@
     </message>
     <message>
         <source>&amp;Print</source>
-        <translation>&amp;Εκτύπωση</translation>
+        <translation>&amp;ბეჭდვა</translation>
     </message>
     <message>
         <source>Select project Print mode</source>
@@ -1468,15 +1499,15 @@
     </message>
     <message>
         <source>&amp;Close</source>
-        <translation>&amp;Κλείσιμο</translation>
+        <translation>&amp;დახურვა</translation>
     </message>
     <message>
         <source>Close the current window</source>
-        <translation type="unfinished"></translation>
+        <translation>მიმდინარე ფანჯრის დახურვა</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;გასვლა</translation>
     </message>
     <message>
         <source>Exit glabels</source>
@@ -1484,75 +1515,75 @@
     </message>
     <message>
         <source>Undo</source>
-        <translation>Αναίρεση</translation>
+        <translation>გაუქმება</translation>
     </message>
     <message>
         <source>Redo</source>
-        <translation>Ακύρωση αναίρεσης</translation>
+        <translation>გამეორება</translation>
     </message>
     <message>
         <source>Cut</source>
-        <translation>Αποκοπή</translation>
+        <translation>ამოჭრა</translation>
     </message>
     <message>
         <source>Cut the selection</source>
-        <translation>Αποκοπή επιλογής</translation>
+        <translation>მონიშნულის ამოჭრა</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
-        <translation>&amp;Αντιγραφή</translation>
+        <translation>&amp;კოპირება</translation>
     </message>
     <message>
         <source>Copy the selection</source>
-        <translation>Αντιγραφή επιλογής</translation>
+        <translation>მონიშნულის კოპირება</translation>
     </message>
     <message>
         <source>&amp;Paste</source>
-        <translation>&amp;Επικόλληση</translation>
+        <translation>&amp;ჩასმა</translation>
     </message>
     <message>
         <source>Paste the clipboard</source>
-        <translation>Επικόλληση των περιεχομένων του προχείρου</translation>
-    </message>
-    <message>
-        <source>&amp;Delete</source>
-        <translation>&amp;Διαγραφή</translation>
-    </message>
-    <message>
-        <source>Delete the selected objects</source>
-        <translation>Διαγραφή των επιλεγμένων αντικειμένων</translation>
-    </message>
-    <message>
-        <source>Select &amp;All</source>
-        <translation>Επιλογή &amp;όλων</translation>
-    </message>
-    <message>
-        <source>Select all objects</source>
-        <translation>Επιλογή όλων των αντικειμένων</translation>
-    </message>
-    <message>
-        <source>Un-select All</source>
-        <translation>Αποεπιλογή όλων</translation>
-    </message>
-    <message>
-        <source>Remove all selections</source>
-        <translation>Αφαίρεση όλων των αντικειμένων</translation>
-    </message>
-    <message>
-        <source>Preferences</source>
-        <translation>Ιδιότητες</translation>
-    </message>
-    <message>
-        <source>Configure the application</source>
-        <translation>Ρύθμιση εφαρμογής</translation>
-    </message>
-    <message>
-        <source>Editor</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <source>&amp;Delete</source>
+        <translation>&amp;წაშლა</translation>
+    </message>
+    <message>
+        <source>Delete the selected objects</source>
+        <translation>მონიშნული ობიექტების წაშლა</translation>
+    </message>
+    <message>
+        <source>Select &amp;All</source>
+        <translation>ყველაფრის &amp;მონიშვნა</translation>
+    </message>
+    <message>
+        <source>Select all objects</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Un-select All</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Remove all selections</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Preferences</source>
+        <translation>მორგება</translation>
+    </message>
+    <message>
+        <source>Configure the application</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Editor</source>
+        <translation>რედაქტორი</translation>
+    </message>
+    <message>
         <source>Grid</source>
-        <translation>Πλέγμα</translation>
+        <translation>ბადე</translation>
     </message>
     <message>
         <source>Change visibility of the grid in current window</source>
@@ -1560,7 +1591,7 @@
     </message>
     <message>
         <source>Markup</source>
-        <translation>Σήμανση</translation>
+        <translation>მარქაფი</translation>
     </message>
     <message>
         <source>Change visibility of markup lines in current window</source>
@@ -1568,127 +1599,127 @@
     </message>
     <message>
         <source>Zoom &amp;In</source>
-        <translation>&amp;Εστίαση</translation>
+        <translation>&amp;გადიდება</translation>
     </message>
     <message>
         <source>Increase magnification</source>
-        <translation>Αύξηση μεγένθυνσης</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Zoom &amp;Out</source>
-        <translation>&amp;Σμίκρυνση</translation>
+        <translation>და&amp;პატარავება</translation>
     </message>
     <message>
         <source>Decrease magnification</source>
-        <translation>Ελάττωση μεγένθυνσης</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Zoom &amp;1 to 1</source>
-        <translation>Εστίαση &amp;1 προς 1</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Restore scale to 100%</source>
-        <translation>Επαναφορά κλίμακας σε 100%</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Zoom to &amp;Fit</source>
-        <translation>Εστίαση για &amp;προσαρμογή</translation>
+        <translation>&amp;გადიდება მოსარგებად</translation>
     </message>
     <message>
         <source>Set scale to fit window</source>
-        <translation>Ορισμός κλίμακας για προσαρμογή παραθύρου</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Select Mode</source>
-        <translation>Λειτουργία επιλογής</translation>
+        <translation>აირჩიეთ რეჟიმი</translation>
     </message>
     <message>
         <source>Select, move and modify objects</source>
-        <translation>Επιλογή, μετακίνηση και τροποποίηση αντικειμένων</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Text</source>
-        <translation>Κείμενο</translation>
+        <translation>ტექსტი</translation>
     </message>
     <message>
         <source>Create text object</source>
-        <translation>Δημιουργία αντικειμένου κειμένου</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Box</source>
-        <translation>Πλαίσιο</translation>
+        <translation>მართკუთხედი</translation>
     </message>
     <message>
         <source>Create box object</source>
-        <translation>Δημιουργία αντικειμένου πλαισίου</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Line</source>
-        <translation>Γραμμή</translation>
+        <translation>ხაზი</translation>
     </message>
     <message>
         <source>Create line object</source>
-        <translation>Δημιουργία αντικειμένου γραμμής</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Ellipse</source>
-        <translation>Έλλειψη</translation>
+        <translation>ოვალი</translation>
     </message>
     <message>
         <source>Create ellipse/circle object</source>
-        <translation>Δημιουργία αντικειμένου έλλειψη/κύκλος</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Image</source>
-        <translation>Εικόνα</translation>
+        <translation>გამოსახულება</translation>
     </message>
     <message>
         <source>Create image object</source>
-        <translation>Δημιουργία αντικειμένου εικόνας</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Barcode</source>
-        <translation>Barcode</translation>
+        <translation>ბარკოდი</translation>
     </message>
     <message>
         <source>Create barcode object</source>
-        <translation>Δημιουργία αντικειμένου barcode</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Bring To Front</source>
-        <translation>Μεταφορά εμπρός</translation>
+        <translation>წინა პლანზე გამოტანა</translation>
     </message>
     <message>
         <source>Raise selection to top</source>
-        <translation>Ανύψωση αντικειμένου στην κορυφή</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Send To Back</source>
-        <translation>Μεταφορά πίσω</translation>
+        <translation>უკან გადაგზავნა</translation>
     </message>
     <message>
         <source>Lower selection to bottom</source>
-        <translation>Κατέβασμα αντικειμένου προς τα κάτω</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Rotate Left</source>
-        <translation>Περιστροφή αριστερά</translation>
+        <translation>მარცხნივ შებრუნება</translation>
     </message>
     <message>
         <source>Rotate object(s) 90 degrees counter-clockwise</source>
-        <translation>Περιστροφή αντικειμένου κατά 90 μοίρες αριστερόστροφα</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Rotate Right</source>
-        <translation>Περιστροφή δεξιά</translation>
+        <translation>მარჯვნივ შებრუნება</translation>
     </message>
     <message>
         <source>Rotate object(s) 90 degrees clockwise</source>
-        <translation>Περιστροφή αντικειμένου κατά 90 μοίρες δεξιόστροφα</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Flip Horizontally</source>
-        <translation>Αναστροφή οριζόντια</translation>
+        <translation>ჰორიზონტალურად გადაბრუნება</translation>
     </message>
     <message>
         <source>Flip object(s) horizontally</source>
@@ -1696,7 +1727,7 @@
     </message>
     <message>
         <source>Flip Vertically</source>
-        <translation>Αναστροφή κατακόρυφα</translation>
+        <translation>ვერტიკალურად გადაბრუნება</translation>
     </message>
     <message>
         <source>Flip object(s) vertically</source>
@@ -1704,67 +1735,67 @@
     </message>
     <message>
         <source>Align Left</source>
-        <translation>Στοίχιση αριστερά</translation>
+        <translation>სწორება მარცხნივ</translation>
     </message>
     <message>
         <source>Align objects to left edges</source>
-        <translation>Στοίχιση αντικειμένων στα αριστερά άκρα</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Align Center</source>
-        <translation>Στοίχιση στο κέντρο</translation>
+        <translation>სწორება ცენტრზე</translation>
     </message>
     <message>
         <source>Align objects to horizontal centers</source>
-        <translation>Στοίχιση αντικειμένων σε οριζόντια κέντρα</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Align Right</source>
-        <translation>Στοίχιση δεξιά</translation>
+        <translation>სწორება მარჯვნივ</translation>
     </message>
     <message>
         <source>Align objects to right edges</source>
-        <translation>Στοίχιση αντικειμένων στα δεξιά άκρα</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Align Top</source>
-        <translation>Στοίχιση επάνω</translation>
+        <translation>სწორება ზემოთ</translation>
     </message>
     <message>
         <source>Align objects to top edges</source>
-        <translation>Στοίχιση αντικειμένων στα πάνω άκρα</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Align Middle</source>
-        <translation>Στοίχιση στο μέσο</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Align objects to vertical centers</source>
-        <translation>Στοίχιση αντικειμένων σε κάθετα κέντρα</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Align Bottom</source>
-        <translation>Στοίχιση κάτω</translation>
+        <translation>სწორება ქვემოთ</translation>
     </message>
     <message>
         <source>Align objects to bottom edges</source>
-        <translation>Στοίχιση αντικειμένων στα κάτω άκρα</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Center Horizontally</source>
-        <translation>Οριζόντιο κεντράρισμα</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Horizontally center objects in label</source>
-        <translation>Κεντράρισμα αντικειμένων σε οριζόντιο κέντρο ετικέτας</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Center Vertically</source>
-        <translation>Κατακόρυφο κεντράρισμα</translation>
+        <translation>ვერტიკალურად დაცენტრება</translation>
     </message>
     <message>
         <source>Vertically center objects in label</source>
-        <translation>Κεντράρισμα αντικειμένων σε κάθετο κέντρο ετικέτας</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Open gLabels manual</source>
@@ -1772,59 +1803,59 @@
     </message>
     <message>
         <source>&amp;About...</source>
-        <translation>Πλη&amp;ροφορίες...</translation>
+        <translation>&amp;შესახებ...</translation>
     </message>
     <message>
         <source>About gLabels</source>
-        <translation>Σχετικά με το gLabels</translation>
-    </message>
-    <message>
-        <source>&amp;File</source>
-        <translation>Αρ&amp;χείο</translation>
-    </message>
-    <message>
-        <source>&amp;View</source>
-        <translation>&amp;Προβολή</translation>
-    </message>
-    <message>
-        <source>Toolbars</source>
-        <translation>Γραμμές εργαλείων</translation>
-    </message>
-    <message>
-        <source>&amp;Objects</source>
-        <translation>&amp;Αντικείμενα</translation>
-    </message>
-    <message>
-        <source>&amp;Create</source>
-        <translation>&amp;Δημιουργία</translation>
-    </message>
-    <message>
-        <source>&amp;Order</source>
-        <translation>&amp;Σειρά</translation>
-    </message>
-    <message>
-        <source>&amp;Rotate/Flip</source>
-        <translation>Πε&amp;ριστροφή/Αναστροφή</translation>
-    </message>
-    <message>
-        <source>&amp;Alignment</source>
-        <translation>Σ&amp;τοίχιση</translation>
-    </message>
-    <message>
-        <source>Center</source>
-        <translation>Στο κέντρο</translation>
-    </message>
-    <message>
-        <source>&amp;Help</source>
-        <translation>&amp;Βοήθεια</translation>
-    </message>
-    <message>
-        <source>&amp;Editor</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <source>&amp;File</source>
+        <translation>&amp;ფაილი</translation>
+    </message>
+    <message>
+        <source>&amp;View</source>
+        <translation>&amp;ხედი</translation>
+    </message>
+    <message>
+        <source>Toolbars</source>
+        <translation>ხელსაწყოთა ზოლები</translation>
+    </message>
+    <message>
+        <source>&amp;Objects</source>
+        <translation>&amp;ობიექტები</translation>
+    </message>
+    <message>
+        <source>&amp;Create</source>
+        <translation>&amp;შექმნა</translation>
+    </message>
+    <message>
+        <source>&amp;Order</source>
+        <translation>&amp;მიმდევრობა</translation>
+    </message>
+    <message>
+        <source>&amp;Rotate/Flip</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Alignment</source>
+        <translation>&amp;სწორება</translation>
+    </message>
+    <message>
+        <source>Center</source>
+        <translation>ცენტრი</translation>
+    </message>
+    <message>
+        <source>&amp;Help</source>
+        <translation>&amp;დახმარება</translation>
+    </message>
+    <message>
+        <source>&amp;Editor</source>
+        <translation>&amp;რედაქტორი</translation>
+    </message>
+    <message>
         <source>(modified)</source>
-        <translation>(τροποποιημένο)</translation>
+        <translation>(შეცვლილი)</translation>
     </message>
     <message>
         <source>Save changes to project &quot;%1&quot; before closing?</source>
@@ -1832,51 +1863,51 @@
     </message>
     <message>
         <source>Your changes will be lost if you don&apos;t save them.</source>
-        <translation>Οι αλλαγές σας θα χαθούν εάν δεν τις αποθηκεύσετε.</translation>
+        <translation>თქვენი ცვლილებები დაიკარგება, თუ არ შეინახავთ.</translation>
     </message>
     <message>
         <source>Save project?</source>
-        <translation>Αποθήκευση έργου;</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Paste</source>
-        <translation>Επικόλληση</translation>
+        <translation>ჩასმა</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation>Διαγραφή</translation>
+        <translation>წაშლა</translation>
     </message>
     <message>
         <source>Create Text</source>
-        <translation>Δημιουργία κειμένου</translation>
+        <translation>ტექსტის შექმნა</translation>
     </message>
     <message>
         <source>Create Box</source>
-        <translation>Δημιουργία πλαισίου</translation>
+        <translation>ყუთის შექმნა</translation>
     </message>
     <message>
         <source>Create Line</source>
-        <translation>Δημιουργία γραμμής</translation>
+        <translation>ხაზის შექმნა</translation>
     </message>
     <message>
         <source>Create Ellipse</source>
-        <translation>Δημιουργία έλλειψης</translation>
+        <translation>ოვალის შექმნა</translation>
     </message>
     <message>
         <source>Create Image</source>
-        <translation>Δημιουργία εικόνας</translation>
+        <translation>ასლის შექმნა</translation>
     </message>
     <message>
         <source>Create Barcode</source>
-        <translation>Δημιουργία barcode</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Quick Access</source>
-        <translation>Γρήγορη πρόσβαση</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>&amp;Report Bug...</source>
-        <translation>Ανα&amp;φορά σφάλματος...</translation>
+        <translation>&amp;შეცდომის ანგარიში...</translation>
     </message>
     <message>
         <source>Report a bug to the developers</source>
@@ -1896,7 +1927,7 @@
     </message>
     <message>
         <source>Open Recent</source>
-        <translation type="unfinished"></translation>
+        <translation>ბოლოს გახსნილი ფაილების გახსნა</translation>
     </message>
     <message>
         <source>Quick Access Toolbar</source>
@@ -1905,12 +1936,12 @@
     <message>
         <source>Undo %1</source>
         <extracomment>%1 is the action name/description (e.g. move, delete, ...) to undo.</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>%1-ის დაბრუნება</translation>
     </message>
     <message>
         <source>Redo %1</source>
         <extracomment>%1 is the action name/description (e.g. move, delete, ...) to redo.</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>%1-ის გამეორება</translation>
     </message>
     <message>
         <source>Center Both</source>
@@ -1925,7 +1956,7 @@
     <name>glabels::MergeView</name>
     <message>
         <source>Merge</source>
-        <translation type="unfinished"></translation>
+        <translation>შერწყმა</translation>
     </message>
     <message>
         <source>Select merge file</source>
@@ -1933,30 +1964,30 @@
     </message>
     <message>
         <source>All files (*)</source>
-        <translation>Όλα τα αρχεία (*)</translation>
+        <translation>ყველა ფაილი (*)</translation>
     </message>
 </context>
 <context>
     <name>glabels::ObjectEditor</name>
     <message>
         <source>No line</source>
-        <translation>Χωρίς γραμμή</translation>
+        <translation>ხაზების გარეშე</translation>
     </message>
     <message>
         <source>No fill</source>
-        <translation>Χωρίς γέμισμα</translation>
+        <translation>შევსების გარეშე</translation>
     </message>
     <message>
         <source>Default</source>
-        <translation>Προεπιλογή</translation>
+        <translation>ნაგულისხმევი</translation>
     </message>
     <message>
         <source>Original size</source>
-        <translation>Αρχικό μέγεθος</translation>
+        <translation>საწყისი ზომა</translation>
     </message>
     <message>
         <source>Box object properties</source>
-        <translation>Ιδιότητες αντικειμένου πλαισίου</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>line/fill</source>
@@ -1968,131 +1999,131 @@
     </message>
     <message>
         <source>shadow</source>
-        <translation type="unfinished"></translation>
+        <translation>ჩრდილი</translation>
     </message>
     <message>
         <source>Ellipse object properties</source>
-        <translation>Ιδιότητες αντικειμένου έλλειψης</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Image object properties</source>
-        <translation>Ιδιότητες αντικειμένου εικόνας</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>image</source>
-        <translation type="unfinished"></translation>
+        <translation>გამოსახულება</translation>
     </message>
     <message>
         <source>Line object properties</source>
-        <translation>Ιδιότητες αντικειμένου γραμμής</translation>
-    </message>
-    <message>
-        <source>Text object properties</source>
-        <translation>Ιδιότητες αντικειμένου κειμένου</translation>
-    </message>
-    <message>
-        <source>text</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <source>Text object properties</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>text</source>
+        <translation>ტექსტი</translation>
+    </message>
+    <message>
         <source>Barcode object properties</source>
-        <translation>Ιδιότητες αντικειμένου Barcode</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>barcode</source>
-        <translation>barcode</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Object properties</source>
-        <translation>Ιδιότητες αντικειμένου</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Line</source>
-        <translation>Γραμμή</translation>
+        <translation>ხაზი</translation>
     </message>
     <message>
         <source>Fill</source>
-        <translation>Γέμισμα</translation>
+        <translation>შევსება</translation>
     </message>
     <message>
         <source>Image files (*.png *.jpg *.jpeg *.gif *.bmp *.pbm *.pgm *.ppm *.xbm *.xpm *.svg)</source>
-        <translation>Αρχεία εικόνων (*.png *.jpg *.jpeg *.gif *.bmp *.pbm *.pgm *.ppm *.xbm *.xpm *.svg)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>All files (*)</source>
-        <translation>Όλα τα αρχεία (*)</translation>
+        <translation>ყველა ფაილი (*)</translation>
     </message>
     <message>
         <source>PNG - Portable Network Graphics (*.png)</source>
-        <translation>PNG - Portable Network Graphics (*.png)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>BMP - Windows Bitmap (*.bmp)</source>
-        <translation>BMP - Windows Bitmap (*.bmp)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>GIF - Graphics Interchange Format (*.gif)</source>
-        <translation>GIF - Graphics Interchange Format (*.gif)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>JPEG - Joint Photographic Experts Group (*.jpg *.jpeg)</source>
-        <translation>JPEG - Joint Photographic Experts Group (*.jpg *.jpeg)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>PBM - Portable Bitmap (*.pbm)</source>
-        <translation>PBM - Portable Bitmap (*.pbm)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>PGM - Portable Graymap (*.pgm)</source>
-        <translation>PGM - Portable Graymap (*.pgm)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>PPM - Portable Pixmap (*.ppm)</source>
-        <translation>PPM - Portable Pixmap (*.ppm)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>SVG - Scalable Vector Graphics (*.svg)</source>
-        <translation>SVG - Scalable Vector Graphics (*.svg)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>XBM - X11 Bitmap (*.xbm)</source>
-        <translation>XBM - X11 Bitmap (*.xbm)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>XPM - X11 Pixmap (*.xpm)</source>
-        <translation>XPM - X11 Pixmap (*.xpm)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>gLabels - Select image file</source>
-        <translation>gLabels - Επιλογή αρχείου εικόνας</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Set image</source>
-        <translation>Ορισμός εικόνας</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Size</source>
-        <translation>Μέγεθος</translation>
+        <translation>ზომა</translation>
     </message>
     <message>
         <source>Text</source>
-        <translation>Κείμενο</translation>
+        <translation>ტექსტი</translation>
     </message>
     <message>
         <source>Shadow</source>
-        <translation>Σκιά</translation>
+        <translation>ჩრდილი</translation>
     </message>
     <message>
         <source>Position</source>
-        <translation>Θέση</translation>
+        <translation>პოზიცია</translation>
     </message>
     <message>
         <source>Barcode</source>
-        <translation>Barcode</translation>
+        <translation>ბარკოდი</translation>
     </message>
     <message>
         <source>Reset</source>
-        <translation>Επαναφορά</translation>
+        <translation>ჩამოყრა</translation>
     </message>
     <message>
         <source>Insert substitution field</source>
@@ -2107,7 +2138,7 @@
     <name>glabels::PrintView</name>
     <message>
         <source>Print</source>
-        <translation>Εκτύπωση</translation>
+        <translation>ბეჭდვა</translation>
     </message>
     <message>
         <source>(Will print a total of %1 items on %2 pages.)</source>
@@ -2123,41 +2154,41 @@
     </message>
     <message>
         <source>Print to file (PDF)</source>
-        <translation>Εκτύπωση σε αρχείο (PDF)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>PDF files (*.pdf);;All files (*)</source>
-        <translation>Αρχεία PDF (*.pdf);;Όλα τα αρχεία (*)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>%1 already exists.</source>
-        <translation>Το «%1» υπάρχει ήδη.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Do you want to overwrite it?</source>
-        <translation>Θέλετε να το αντικαταστήσετε;</translation>
+        <translation>გნებავთ, თავზე გადააწეროთ?</translation>
     </message>
 </context>
 <context>
     <name>glabels::PropertiesView</name>
     <message>
         <source>Properties</source>
-        <translation>Ιδιότητες</translation>
+        <translation>თვისებები</translation>
     </message>
     <message>
         <source>Product Rotate</source>
-        <translation>Περιστροφή προϊόντος</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Change Product</source>
-        <translation>Αλλαγή προϊόντος</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>glabels::ReportBugDialog</name>
     <message>
         <source>How to Report a Bug</source>
-        <translation type="unfinished"></translation>
+        <translation>როგორ მოგვწეროთ შეცდომის შესახებ</translation>
     </message>
     <message>
         <source>To submit a bug report, click on the button below.  This will open a web browser to the gLabels github issue tracking page.</source>
@@ -2176,18 +2207,18 @@
     <name>glabels::SelectProductDialog</name>
     <message>
         <source>List View</source>
-        <translation>Προβολή λίστας</translation>
+        <translation>სიის ხედი</translation>
     </message>
     <message>
         <source>Grid View</source>
-        <translation>Προβολή πλέγματος</translation>
+        <translation>ბადის ხედი</translation>
     </message>
 </context>
 <context>
     <name>glabels::SimplePreview</name>
     <message>
         <source>Up</source>
-        <translation>Επάνω</translation>
+        <translation>მაღლა</translation>
     </message>
 </context>
 <context>
@@ -2198,11 +2229,11 @@
     </message>
     <message>
         <source>Roll</source>
-        <translation type="unfinished"></translation>
+        <translation>გაგორება</translation>
     </message>
     <message>
         <source>Copy</source>
-        <translation>Αντιγραφή</translation>
+        <translation>კოპირება</translation>
     </message>
 </context>
 <context>
@@ -2229,7 +2260,7 @@
     <name>glabels::TemplateDesignerCdPage</name>
     <message>
         <source>Product Size</source>
-        <translation>Μέγεθος προϊόντος</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Please adjust the size parameters of a single product item.</source>
@@ -2262,7 +2293,7 @@
     <name>glabels::TemplateDesignerIntroPage</name>
     <message>
         <source>Welcome</source>
-        <translation>Καλως ήλθατε</translation>
+        <translation>მოგესალმებით</translation>
     </message>
     <message>
         <source>Welcome to the gLabels Product Template Designer.</source>
@@ -2273,7 +2304,7 @@
     <name>glabels::TemplateDesignerNLayoutsPage</name>
     <message>
         <source>Number of Layouts</source>
-        <translation>Αριθμός διατάξεων</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Please select the number of layouts required.</source>
@@ -2284,7 +2315,7 @@
     <name>glabels::TemplateDesignerNamePage</name>
     <message>
         <source>Name and Description</source>
-        <translation>Όνομα και Περιγραφή</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Please enter the following identifying information about the product.</source>
@@ -2299,7 +2330,7 @@
     <name>glabels::TemplateDesignerOneLayoutPage</name>
     <message>
         <source>Layout</source>
-        <translation>Διάταξη</translation>
+        <translation>განლაგება</translation>
     </message>
     <message>
         <source>Please enter parameters for your single layout.</source>
@@ -2310,7 +2341,7 @@
     <name>glabels::TemplateDesignerPageSizePage</name>
     <message>
         <source>Page Size</source>
-        <translation>Μέγεθος σελίδας</translation>
+        <translation>გვერდის ზომა</translation>
     </message>
     <message>
         <source>Please select the product page size.</source>
@@ -2318,11 +2349,11 @@
     </message>
     <message>
         <source>Other</source>
-        <translation>Άλλο</translation>
+        <translation>სხვა</translation>
     </message>
     <message>
         <source>Roll</source>
-        <translation type="unfinished"></translation>
+        <translation>გაგორება</translation>
     </message>
 </context>
 <context>
@@ -2373,7 +2404,7 @@
     <name>glabels::TemplateDesignerTwoLayoutPage</name>
     <message>
         <source>Layouts</source>
-        <translation>Διατάξεις</translation>
+        <translation>განლაგებები</translation>
     </message>
     <message>
         <source>Please enter parameters for your two layouts.</source>
@@ -2384,46 +2415,46 @@
     <name>glabels::VariablesView</name>
     <message>
         <source>Variables</source>
-        <translation>Μεταβλητές</translation>
+        <translation>ცვლადები</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation>Όνομα</translation>
+        <translation>სახელი</translation>
     </message>
     <message>
         <source>Type</source>
-        <translation>Τύπος</translation>
+        <translation>ტიპი</translation>
     </message>
     <message>
         <source>Increment</source>
-        <translation type="unfinished"></translation>
+        <translation>გაზრდა</translation>
     </message>
     <message>
         <source>Step Size</source>
-        <translation type="unfinished"></translation>
+        <translation>ბიჯის ზომა</translation>
     </message>
     <message>
         <source>Add Variable</source>
-        <translation>Προσθήκη μεταβλητής</translation>
+        <translation>ცვლადის დამატება</translation>
     </message>
     <message>
         <source>Edit Variable</source>
-        <translation>Επεξεργασία μεταβλητής</translation>
+        <translation>ცვლადის ჩასწორება</translation>
     </message>
     <message>
         <source>Value</source>
-        <translation>Τιμή</translation>
+        <translation>მნიშვნელობა</translation>
     </message>
 </context>
 <context>
     <name>glabels::barcode::Backends</name>
     <message>
         <source>Code 39</source>
-        <translation>Code 39</translation>
+        <translation>კოდი 39</translation>
     </message>
     <message>
         <source>Code 39 Extended</source>
-        <translation>Code 39 Εκτεταμένο</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>UPC-A</source>
@@ -2435,23 +2466,23 @@
     </message>
     <message>
         <source>POSTNET (any)</source>
-        <translation>POSTNET (οποιοδήποτε)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>POSTNET-5 (ZIP only)</source>
-        <translation>POSTNET-5 (μόνο ZIP)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>POSTNET-9 (ZIP+4)</source>
-        <translation>POSTNET-9 (ZIP+4)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>POSTNET-11 (DPBC)</source>
-        <translation>POSTNET-11 (DPBC)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>CEPNET</source>
-        <translation>CEPNET</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>USPS Intelligent Mail</source>
@@ -2459,11 +2490,11 @@
     </message>
     <message>
         <source>IEC16022 (DataMatrix)</source>
-        <translation>IEC16022 (DataMatrix)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>EAN (any)</source>
-        <translation>EAN (οποιοδήποτε)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>EAN-8</source>
@@ -2471,31 +2502,31 @@
     </message>
     <message>
         <source>EAN-8+2</source>
-        <translation>EAN-8+2</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>EAN-8+5</source>
-        <translation>EAN-8+5</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>EAN-13+2</source>
-        <translation>EAN-13+2</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>EAN-13+5</source>
-        <translation>EAN-13+5</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>UPC (UPC-A or UPC-E)</source>
-        <translation>UPC (UPC-A ή UPC-E)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>UPC-A +2</source>
-        <translation>UPC-A +2</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>UPC-A +5</source>
-        <translation>UPC-A +5</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>UPC-E</source>
@@ -2503,11 +2534,11 @@
     </message>
     <message>
         <source>UPC-E +2</source>
-        <translation>UPC-E +2</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>UPC-E +5</source>
-        <translation>UPC-E +5</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>ISBN</source>
@@ -2515,91 +2546,91 @@
     </message>
     <message>
         <source>ISBN +5</source>
-        <translation>ISBN +5</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Code 128</source>
-        <translation>Code 128</translation>
+        <translation>კოდი 128</translation>
     </message>
     <message>
         <source>Code 128C</source>
-        <translation>Code 128C</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Code 128B</source>
-        <translation>Code 128B</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Interleaved 2 of 5</source>
-        <translation>Παρεμβολή 2 από 5</translation>
+        <translation>2 მონაცვლეობა 5-დან</translation>
     </message>
     <message>
         <source>Codabar</source>
-        <translation>Ραβδωτός κώδικας</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>MSI</source>
-        <translation>MSI</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Plessey</source>
-        <translation>Plessey</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Code 93</source>
-        <translation>Code 93</translation>
+        <translation>კოდი 93</translation>
     </message>
     <message>
         <source>IEC18004 (QRCode)</source>
-        <translation>IEC18004 (Κωδικός QR)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Australia Post Standard</source>
-        <translation>Πρότυπο ταχυδρομείου Αυστραλίας</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Australia Post Reply Paid</source>
-        <translation>Πληρωμένη ταχυδρομική απάντηση Αυστραλίας</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Australia Post Route Code</source>
-        <translation>Ταχυδρομικός κώδικας Αυστραλίας</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Australia Post Redirect</source>
-        <translation>Ταχυδρομική ανακατεύθυνση Αυστραλίας</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Aztec Code</source>
-        <translation>Κώδικας Aztec</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Code One</source>
-        <translation>Code One</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Code 11</source>
-        <translation>Code 11</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Code 16K</source>
-        <translation>Code 16K</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Code 2 of 5 IATA</source>
-        <translation>Code 2 από 5 IATA</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Code 2 of 5 Data Logic</source>
-        <translation>Code 2 από 5 Data Logic</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Code 32 (Italian Pharmacode)</source>
-        <translation>Code 32 (Ιταλικός φαρμακευτικός κώδικας)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Code 49</source>
-        <translation>Code 49</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Code 128 (Mode C suppression)</source>
@@ -2607,119 +2638,119 @@
     </message>
     <message>
         <source>DAFT Code</source>
-        <translation>Code DAFT</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Data Matrix</source>
-        <translation>Πίνακας δεδομένων</translation>
+        <translation>მონაცემების მატრიცა</translation>
     </message>
     <message>
         <source>Deutsche Post Leitcode</source>
-        <translation>Γερμανικός ταχυδρομικός κώδικας Leitcode</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Deutsche Post Identcode</source>
-        <translation>Γερμανικός ταχυδρομικός κώδικας Identcode</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Dutch Post KIX Code</source>
-        <translation>Ολλανδικός ταχυδρομικός κώδικας KIX</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>EAN</source>
-        <translation>EAN</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Grid Matrix</source>
-        <translation>Πίνακας πλέγματος</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>GS1-128</source>
-        <translation>GS1-128</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>HIBC Code 128</source>
-        <translation>HIBC Code 128</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>HIBC Code 39</source>
-        <translation>HIBC Code 39</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>HIBC Data Matrix</source>
-        <translation>Πίνακας δεδομένων HIBC</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>HIBC QR Code</source>
-        <translation>HIBC QR Code</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>HIBC PDF417</source>
-        <translation>HIBC PDF417</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>HIBC Aztec Code</source>
-        <translation>HIBC Aztec Code</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>ITF-14</source>
-        <translation>ITF-14</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Japanese Postal</source>
-        <translation>Ιαπωνικός ταχυδρομικός κώδικας</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Korean Postal</source>
-        <translation>Κορεάτικος ταχυδρομικός κώδικας</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>LOGMARS</source>
-        <translation>LOGMARS</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Maxicode</source>
-        <translation>Maxicode</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Micro QR Code</source>
-        <translation>Micro QR Code</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>MSI Plessey</source>
-        <translation>MSI Plessey</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>PDF417</source>
-        <translation>PDF417</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>PLANET</source>
-        <translation>PLANET</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Pharmacode</source>
-        <translation>Φαρμακευτικός κώδικας</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Pharmacode 2-track</source>
-        <translation>Φαρμακευτικός κώδικας 2 ιχνών</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>QR Code</source>
-        <translation>Κώδικας QR</translation>
+        <translation>QR კოდი</translation>
     </message>
     <message>
         <source>Telepen</source>
-        <translation>Telepen</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Telepen Numeric</source>
-        <translation>Αριθμητικό Telepen</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>UK Plessey</source>
-        <translation>UK Plessey</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Aztec Runes</source>
@@ -2731,7 +2762,7 @@
     </message>
     <message>
         <source>Codablock-F</source>
-        <translation>Codablock-F</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Code 2 of 5 Standard</source>
@@ -2751,27 +2782,27 @@
     </message>
     <message>
         <source>HIBC MicroPDF417</source>
-        <translation>HIBC MicroPDF417</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>MicroPDF417</source>
-        <translation>MicroPDF417</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>NVE-18 (SSCC-18)</source>
-        <translation>NVE-18 (SSCC-18)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>PDF417 Compact</source>
-        <translation>PDF417 Compact</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Pharmazentralnummer (PZN)</source>
-        <translation>Pharmazentralnummer (PZN)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Channel Code</source>
-        <translation>Channel Code</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Code 2 of 5 Industrial</source>
@@ -2779,11 +2810,11 @@
     </message>
     <message>
         <source>DotCode</source>
-        <translation>DotCode</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>EAN-14</source>
-        <translation>EAN-14</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>GS1 DataBar Omnidirectional</source>
@@ -2791,19 +2822,19 @@
     </message>
     <message>
         <source>Han Xin</source>
-        <translation>Han Xin</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Flattermarken</source>
-        <translation>Flattermarken</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>DPD Code</source>
-        <translation>DPD Code</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>POSTNET</source>
-        <translation>POSTNET</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Royal Mail 4-State Mailmark</source>
@@ -2811,7 +2842,7 @@
     </message>
     <message>
         <source>UPU S10</source>
-        <translation>UPU S10</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>FIM (Facing ID Mark)</source>
@@ -2831,7 +2862,7 @@
     </message>
     <message>
         <source>HIBC Codablock-F</source>
-        <translation>HIBC Codablock-F</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Royal Mail 2-D Mailmark</source>
@@ -2839,14 +2870,14 @@
     </message>
     <message>
         <source>BC412 (SEMI TI-95)</source>
-        <translation>BC412 (SEMI TI-95)</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>glabels::model::Model</name>
     <message>
         <source>Untitled</source>
-        <translation>Χωρίς Τίτλο</translation>
+        <translation>უსათაურო</translation>
     </message>
 </context>
 <context>
@@ -2857,21 +2888,21 @@
     </message>
     <message>
         <source>Invalid barcode data</source>
-        <translation>Μη έγκυρα δεδομένα barcode</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>glabels::model::ModelImageObject</name>
     <message>
         <source>No image</source>
-        <translation type="unfinished"></translation>
+        <translation>გამოსახულების გარეშე</translation>
     </message>
 </context>
 <context>
     <name>glabels::model::ModelTextObject</name>
     <message>
         <source>Text</source>
-        <translation>Κείμενο</translation>
+        <translation>ტექსტი</translation>
     </message>
 </context>
 <context>
@@ -2882,6 +2913,10 @@
     </message>
     <message>
         <source>gLabels project files to open, optionally.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>More detailed version information.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

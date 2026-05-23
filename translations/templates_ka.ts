@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="el">
+<TS version="2.1" language="ka">
 <context>
     <name>XmlStrings</name>
     <message>
         <source>Address labels</source>
-        <translation>Ετικέτες διευθύνσεων</translation>
+        <translation>მისამართის ჭდეები</translation>
     </message>
     <message>
         <source>Any card</source>
-        <translation>Οποιαδήποτε κάρτα</translation>
+        <translation>ნებისმიერი ბარათი</translation>
     </message>
     <message>
         <source>Any label</source>
-        <translation>Οποιαδήποτε ετικέτα</translation>
+        <translation>ნებისმიერი ჭდე</translation>
     </message>
     <message>
         <source>Arch file inserts</source>
@@ -37,11 +37,11 @@
     </message>
     <message>
         <source>Business cards</source>
-        <translation>Επαγγελματικές κάρτες</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>CD/DVD booklet</source>
-        <translation type="unfinished"></translation>
+        <translation>CD/DVD ბუკლეტი</translation>
     </message>
     <message>
         <source>CD/DVD case (rightside up)</source>
@@ -65,7 +65,7 @@
     </message>
     <message>
         <source>CD/DVD labels</source>
-        <translation>Ετικέτες CD/DVD</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>CD/DVD labels (disc labels)</source>
@@ -77,7 +77,7 @@
     </message>
     <message>
         <source>CD/DVD labels (rectangles)</source>
-        <translation>Ετικέτες CD/DVD (ορθογώνια)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>CD/DVD labels (spine only)</source>
@@ -85,7 +85,7 @@
     </message>
     <message>
         <source>CD/DVD or other media</source>
-        <translation>CD/DVD ή άλλα πολυμέσα</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>CD/DVD tray</source>
@@ -93,27 +93,27 @@
     </message>
     <message>
         <source>Candy labels</source>
-        <translation type="unfinished"></translation>
+        <translation>ტკბილეულის ეტიკეტები</translation>
     </message>
     <message>
         <source>Cassette labels</source>
-        <translation type="unfinished"></translation>
+        <translation>კასეტების ეტიკეტები</translation>
     </message>
     <message>
         <source>Coffee and tea labels</source>
-        <translation type="unfinished"></translation>
+        <translation>ყავისა და ჩაის ეტიკეტები</translation>
     </message>
     <message>
         <source>Correction labels</source>
-        <translation type="unfinished"></translation>
+        <translation>კორექტირების ეტიკეტები</translation>
     </message>
     <message>
         <source>DLT labels</source>
-        <translation>Ετικέτες DLT</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Digital media labels</source>
-        <translation>Ετικέτες ψηφιακών μέσων</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Digital video labels</source>
@@ -121,15 +121,15 @@
     </message>
     <message>
         <source>Diskette labels</source>
-        <translation>Ετικέτες δισκετών</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Elliptical labels</source>
-        <translation>Ελλειπτικές ετικέτες</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>File folder labels</source>
-        <translation>Ετικέτες φακέλου αρχείων</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Filing labels</source>
@@ -137,7 +137,7 @@
     </message>
     <message>
         <source>Floppy disk labels</source>
-        <translation>Ετικέτες δισκετών</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Flyer paper</source>
@@ -145,11 +145,11 @@
     </message>
     <message>
         <source>Foldable business cards</source>
-        <translation>Διπλώσιμες επαγγελματικές κάρτες</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Foldable cards</source>
-        <translation>Κάρτες που διπλώνουν</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Full face CD/DVD labels</source>
@@ -165,7 +165,7 @@
     </message>
     <message>
         <source>Greeting cards</source>
-        <translation>Ευχετήριες κάρτες</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Hanging folder labels</source>
@@ -177,7 +177,7 @@
     </message>
     <message>
         <source>Labels</source>
-        <translation>Ετικέτες</translation>
+        <translation>ჭდეები</translation>
     </message>
     <message>
         <source>Large address labels</source>
@@ -189,15 +189,15 @@
     </message>
     <message>
         <source>Magnet stickers</source>
-        <translation>Μαγνητικά αυτοκόλλητα</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Mailing labels</source>
-        <translation>Ετικέτες αλληλογραφίας</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Mailing/shipping products</source>
-        <translation>Προϊόντα ταχυδρομείου/αποστολής</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Medical chart labels</source>
@@ -205,7 +205,7 @@
     </message>
     <message>
         <source>Membership cards</source>
-        <translation>Κάρτες μέλους</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Metal tin container labels</source>
@@ -241,7 +241,7 @@
     </message>
     <message>
         <source>Name plates</source>
-        <translation>Πινακίδα ονόματος</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Nutritional labels</source>
@@ -253,23 +253,23 @@
     </message>
     <message>
         <source>Passport photo labels</source>
-        <translation>Ετικέτες φωτογραφιών διαβατηρίου</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Photo labels</source>
-        <translation>Ετικέτες φωτογραφιών</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Photo products</source>
-        <translation>Προϊόντα φωτογραφίας</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Printable mousepad</source>
-        <translation>Εκτυπώσιμο mousepad</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Rectangular labels</source>
-        <translation>Ορθογώνιες ετικέτες</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Return address labels</source>
@@ -277,11 +277,11 @@
     </message>
     <message>
         <source>Round labels</source>
-        <translation>Στρογγυλές ετικέτες</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>SD card labels</source>
-        <translation>Ετικέτες καρτών SD</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Seal labels</source>
@@ -289,11 +289,11 @@
     </message>
     <message>
         <source>Shipping labels</source>
-        <translation>Ετικέτες αποστολής</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Square labels</source>
-        <translation>Τετράγωνες ετικέτες</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Target stickers</source>
@@ -301,11 +301,11 @@
     </message>
     <message>
         <source>Trapezoid labels</source>
-        <translation>Τραπεζοειδείς ετικέτες</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Triangular labels</source>
-        <translation>Τριγωνικές ετικέτες</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Video labels (face only)</source>
@@ -321,7 +321,7 @@
     </message>
     <message>
         <source>Zip disc labels</source>
-        <translation>Ετικέτες δίσκων Zip</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Bookplate labels</source>
@@ -349,7 +349,7 @@
     </message>
     <message>
         <source>VHS labels</source>
-        <translation>Ετικέτες VHS</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Large arch file labels</source>
@@ -393,7 +393,7 @@
     </message>
     <message>
         <source>Post cards</source>
-        <translation>Ταχυδρομικές κάρτες</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Tent cards</source>
